@@ -1,0 +1,54 @@
+<NeuralDesignerOutput>
+ <Task Title="Inputs selection" Component="Model selection" Id="DhBX0t" Name="Perform inputs selection">
+  <Text Title="Task description" Id="DGzOSe">Some data sets have inputs that are redundants and it affects the error of the neural network. The inputs selection are used to find the optimal subset of inputs for the best error of the model. </Text>
+  <Text Title="Inputs selection algorithm" Id="ilrABt">The genetic algorithm is used here as inputs selection algorithm in the model selection. </Text>
+  <DoubleLineChart Title="Genetic algotihm error plot" Id="y4DFXy">
+   <Caption Id="ZQymXS">The next chart shows the error history for the different subsets during the genetic algorithm inputs selection process. The blue line represents the training error, its initial value is 0.000122232, and the final value after 50 generations is 0.000145374. The orange line symbolizes the selection error, its initial value is 0.000465615, and the final value after 50 generations is 0.000511152. </Caption>
+   <X1Data>1\2\3\4\5\6\7\8\9\10\11\12\13\14\15\16\17\18\19\20\21\22\23\24\25\26\27\28\29\30\31\32\33\34\35\36\37\38\39\40\41\42\43\44\45\46\47\48\49\50</X1Data>
+   <X2Data>1\2\3\4\5\6\7\8\9\10\11\12\13\14\15\16\17\18\19\20\21\22\23\24\25\26\27\28\29\30\31\32\33\34\35\36\37\38\39\40\41\42\43\44\45\46\47\48\49\50</X2Data>
+   <Y1Data>0.00012223\0.00015608\0.0001019\0.00013296\0.00012329\0.00011242\0.00011882\0.00011385\0.0001157\0.00010358\0.00011136\0.00010522\0.00013572\0.00011077\0.00012345\0.00012069\0.00016046\0.00010858\0.00014537\0.00011276\0.00011692\0.00010066\0.0001131\0.00011549\0.00010971\0.00010292\0.00010845\0.0001012\0.0001058\0.00013448\0.00011207\0.00013063\0.0001303\0.00011775\0.00010714\0.00011228\0.00010816\0.00012244\0.00013912\0.00010296\0.00011567\0.00011084\0.00012929\0.0001057\0.00010916\0.00011376\0.00011993\0.00011071\0.00011536\0.00011063</Y1Data>
+   <Y1Name>Training error</Y1Name>
+   <Color1>#437CC0</Color1>
+   <Width1>1</Width1>
+   <Areas1>false</Areas1>
+   <Y2Data>0.00046561\0.00061148\0.00038089\0.00041909\0.00040893\0.00032062\0.00040587\0.00034763\0.00042606\0.00036787\0.00043439\0.00045052\0.00052839\0.00027808\0.00086905\0.0004888\0.00069313\0.00036458\0.00051115\0.00042014\0.00041668\0.00032716\0.00041921\0.00044218\0.00041433\0.0003849\0.00042049\0.00036614\0.0002843\0.00036443\0.00031847\0.00033804\0.00035753\0.0002888\0.00041817\0.00036791\0.00036393\0.00042921\0.00043724\0.00034814\0.00034787\0.00035965\0.00052213\0.00040881\0.00032166\0.00038146\0.00040853\0.00035157\0.00034314\0.00028959</Y2Data>
+   <Y2Name>Selection error</Y2Name>
+   <Color2>#FF4F4A</Color2>
+   <Width2>1</Width2>
+   <Areas2>false</Areas2>
+   <Metadata></Metadata>
+   <MetadataName></MetadataName>
+   <XLabel>Generation</XLabel>
+   <YLabel>Error</YLabel>
+   <XMinimum>1</XMinimum>
+   <XMaximum>50</XMaximum>
+   <YMinimum>0</YMinimum>
+   <YMaximum>0.001</YMaximum>
+  </DoubleLineChart>
+  <LineChart Title="Genetic algorithm generation mean plot" Id="QKHCWV">
+   <Caption Id="DnPZES">The next chart shows the history of the mean of the selection error in each generation during the genetic algorithm inputs selection process. The initial value is 0.000458366, and the final value after 50 generations is 0.000387. </Caption>
+   <XData>1\2\3\4\5\6\7\8\9\10\11\12\13\14\15\16\17\18\19\20\21\22\23\24\25\26\27\28\29\30\31\32\33\34\35\36\37\38\39\40\41\42\43\44\45\46\47\48\49\50</XData>
+   <YData>0.00045837\0.00047197\0.00046644\0.00045611\0.0004148\0.00039159\0.00039106\0.00040981\0.00039448\0.00035748\0.00038533\0.00035289\0.00039126\0.00034953\0.00039568\0.00038144\0.00047754\0.00048636\0.00047537\0.0004204\0.00040464\0.00041168\0.00040017\0.00040552\0.0003751\0.00035782\0.00038663\0.00037641\0.00032878\0.00034886\0.00033819\0.00035762\0.00034861\0.0003397\0.00035334\0.00034462\0.00036959\0.0003812\0.00037893\0.00036689\0.00035943\0.00038004\0.00046395\0.00042278\0.00038329\0.0003879\0.00040724\0.00035894\0.00056373\0.00038687</YData>
+   <Areas>false</Areas>
+   <XLabel>Generation</XLabel>
+   <YLabel>Mean</YLabel>
+   <XMinimum>1</XMinimum>
+   <XMaximum>50</XMaximum>
+   <YMinimum>0</YMinimum>
+   <YMaximum>0.001</YMaximum>
+  </LineChart>
+  <Table Title="Genetic algorithm results" Id="bSqDlS">
+   <Caption Id="B2KUlw">The next table shows the inputs selection results by the genetic algorithm. They include some final states from the neural network, the error functional and the inputs selection algorithm. </Caption>
+   <Data>158
+0.000145374
+0.000511152
+50
+02:40</Data>
+   <RowsName>Optimal number of inputs\Optimum training error\Optimum selection error\Generations number\Elapsed time</RowsName>
+   <ColumnsName>Value</ColumnsName>
+   <RowHeadingsWidth>18</RowHeadingsWidth>
+   <ColumnHeadingsWidth>6</ColumnHeadingsWidth>
+   <Alignment>right</Alignment>
+  </Table>
+ </Task>
+</NeuralDesignerOutput>

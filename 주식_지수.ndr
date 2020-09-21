@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NeuralReaderProject ProjectType="Approximation">
+    <DataFileName>/Users/donghee/Project/Stock_index/pythonWrapper/주식_지수.csv</DataFileName>
+    <Separator>Comma</Separator>
+    <MissingValuesLabel>NA</MissingValuesLabel>
+    <GroupingFactor>0</GroupingFactor>
+    <ColumnsName>1</ColumnsName>
+    <RowsLabel>0</RowsLabel>
+</NeuralReaderProject>

@@ -1,0 +1,2185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NeuralReaderProject ProjectType="Approximation">
+    <Columns>
+        <ColumnsNumber>270</ColumnsNumber>
+        <Column Index="1">
+            <ColumnName size="1">Date</ColumnName>
+            <ColumnType>Date</ColumnType>
+            <Item>
+                <Name size="1">Date</Name>
+                <Value>Date</Value>
+            </Item>
+        </Column>
+        <Column Index="2">
+            <ColumnName size="1">KOSPI_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="3">
+            <ColumnName size="1">CANADA_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="4">
+            <ColumnName size="1">CANADA_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="5">
+            <ColumnName size="1">CANADA_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="6">
+            <ColumnName size="1">CANADA_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="7">
+            <ColumnName size="1">EUR_USD_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="8">
+            <ColumnName size="1">EUR_USD_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="9">
+            <ColumnName size="1">EUR_USD_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="10">
+            <ColumnName size="1">EUR_USD_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="11">
+            <ColumnName size="1">AEX_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="12">
+            <ColumnName size="1">AEX_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="13">
+            <ColumnName size="1">AEX_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="14">
+            <ColumnName size="1">AEX_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="15">
+            <ColumnName size="1">FTSE_Now_x</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="16">
+            <ColumnName size="1">FTSE_Open_x</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="17">
+            <ColumnName size="1">FTSE_High_x</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="18">
+            <ColumnName size="1">FTSE_Low_x</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="19">
+            <ColumnName size="1">IDR_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="20">
+            <ColumnName size="1">IDR_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="21">
+            <ColumnName size="1">IDR_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="22">
+            <ColumnName size="1">IDR_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="23">
+            <ColumnName size="1">CNY_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="24">
+            <ColumnName size="1">CNY_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="25">
+            <ColumnName size="1">CNY_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="26">
+            <ColumnName size="1">CNY_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="27">
+            <ColumnName size="1">GAS_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="28">
+            <ColumnName size="1">GAS_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="29">
+            <ColumnName size="1">GAS_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="30">
+            <ColumnName size="1">GAS_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="31">
+            <ColumnName size="1">Brazil_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="32">
+            <ColumnName size="1">Brazil_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="33">
+            <ColumnName size="1">Brazil_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="34">
+            <ColumnName size="1">Brazil_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="35">
+            <ColumnName size="1">HONH_KONG_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="36">
+            <ColumnName size="1">HONH_KONG_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="37">
+            <ColumnName size="1">HONH_KONG_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="38">
+            <ColumnName size="1">HONH_KONG_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="39">
+            <ColumnName size="1">DAX_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="40">
+            <ColumnName size="1">DAX_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="41">
+            <ColumnName size="1">DAX_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="42">
+            <ColumnName size="1">DAX_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="43">
+            <ColumnName size="1">RTSI_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="44">
+            <ColumnName size="1">RTSI_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="45">
+            <ColumnName size="1">RTSI_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="46">
+            <ColumnName size="1">RTSI_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="47">
+            <ColumnName size="1">MOEX_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="48">
+            <ColumnName size="1">MOEX_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="49">
+            <ColumnName size="1">MOEX_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="50">
+            <ColumnName size="1">MOEX_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="51">
+            <ColumnName size="1">UK_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="52">
+            <ColumnName size="1">UK_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="53">
+            <ColumnName size="1">UK_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="54">
+            <ColumnName size="1">UK_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="55">
+            <ColumnName size="1">Nifty_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="56">
+            <ColumnName size="1">Nifty_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="57">
+            <ColumnName size="1">Nifty_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="58">
+            <ColumnName size="1">Nifty_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="59">
+            <ColumnName size="1">S&amp;P_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="60">
+            <ColumnName size="1">S&amp;P_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="61">
+            <ColumnName size="1">S&amp;P_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="62">
+            <ColumnName size="1">S&amp;P_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="63">
+            <ColumnName size="1">Copper_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="64">
+            <ColumnName size="1">Copper_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="65">
+            <ColumnName size="1">Copper_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="66">
+            <ColumnName size="1">Copper_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="67">
+            <ColumnName size="1">SANGHAI_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="68">
+            <ColumnName size="1">SANGHAI_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="69">
+            <ColumnName size="1">SANGHAI_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="70">
+            <ColumnName size="1">SANGHAI_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="71">
+            <ColumnName size="1">EUR_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="72">
+            <ColumnName size="1">EUR_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="73">
+            <ColumnName size="1">EUR_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="74">
+            <ColumnName size="1">EUR_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="75">
+            <ColumnName size="1">NASDAQ_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="76">
+            <ColumnName size="1">NASDAQ_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="77">
+            <ColumnName size="1">NASDAQ_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="78">
+            <ColumnName size="1">NASDAQ_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="79">
+            <ColumnName size="1">HKD_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="80">
+            <ColumnName size="1">HKD_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="81">
+            <ColumnName size="1">HKD_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="82">
+            <ColumnName size="1">HKD_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="83">
+            <ColumnName size="1">FRANCE_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="84">
+            <ColumnName size="1">FRANCE_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="85">
+            <ColumnName size="1">FRANCE_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="86">
+            <ColumnName size="1">FRANCE_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="87">
+            <ColumnName size="1">US_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="88">
+            <ColumnName size="1">US_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="89">
+            <ColumnName size="1">US_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="90">
+            <ColumnName size="1">US_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="91">
+            <ColumnName size="1">CHF_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="92">
+            <ColumnName size="1">CHF_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="93">
+            <ColumnName size="1">CHF_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="94">
+            <ColumnName size="1">CHF_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="95">
+            <ColumnName size="1">USD_CAD_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="96">
+            <ColumnName size="1">USD_CAD_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="97">
+            <ColumnName size="1">USD_CAD_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="98">
+            <ColumnName size="1">USD_CAD_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="99">
+            <ColumnName size="1">GERMANY_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="100">
+            <ColumnName size="1">GERMANY_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="101">
+            <ColumnName size="1">GERMANY_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="102">
+            <ColumnName size="1">GERMANY_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="103">
+            <ColumnName size="1">iBovespa_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="104">
+            <ColumnName size="1">iBovespa_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="105">
+            <ColumnName size="1">iBovespa_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="106">
+            <ColumnName size="1">iBovespa_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="107">
+            <ColumnName size="1">INR_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="108">
+            <ColumnName size="1">INR_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="109">
+            <ColumnName size="1">INR_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="110">
+            <ColumnName size="1">INR_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="111">
+            <ColumnName size="1">WTI_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="112">
+            <ColumnName size="1">WTI_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="113">
+            <ColumnName size="1">WTI_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="114">
+            <ColumnName size="1">WTI_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="115">
+            <ColumnName size="1">S&amp;P_BMV_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="116">
+            <ColumnName size="1">S&amp;P_BMV_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="117">
+            <ColumnName size="1">S&amp;P_BMV_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="118">
+            <ColumnName size="1">S&amp;P_BMV_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="119">
+            <ColumnName size="1">NIKKEI_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="120">
+            <ColumnName size="1">NIKKEI_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="121">
+            <ColumnName size="1">NIKKEI_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="122">
+            <ColumnName size="1">NIKKEI_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="123">
+            <ColumnName size="1">SOUTH_KOREA_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="124">
+            <ColumnName size="1">SOUTH_KOREA_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="125">
+            <ColumnName size="1">SOUTH_KOREA_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="126">
+            <ColumnName size="1">SOUTH_KOREA_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="127">
+            <ColumnName size="1">SMI_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="128">
+            <ColumnName size="1">SMI_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="129">
+            <ColumnName size="1">SMI_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="130">
+            <ColumnName size="1">SMI_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="131">
+            <ColumnName size="1">DOWJONES_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="132">
+            <ColumnName size="1">DOWJONES_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="133">
+            <ColumnName size="1">DOWJONES_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="134">
+            <ColumnName size="1">DOWJONES_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="135">
+            <ColumnName size="1">US_COFFEE_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="136">
+            <ColumnName size="1">US_COFFEE_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="137">
+            <ColumnName size="1">US_COFFEE_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="138">
+            <ColumnName size="1">US_COFFEE_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="139">
+            <ColumnName size="1">OMXS_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="140">
+            <ColumnName size="1">OMXS_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="141">
+            <ColumnName size="1">OMXS_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="142">
+            <ColumnName size="1">OMXS_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="143">
+            <ColumnName size="1">AUD_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="144">
+            <ColumnName size="1">AUD_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="145">
+            <ColumnName size="1">AUD_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="146">
+            <ColumnName size="1">AUD_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="147">
+            <ColumnName size="1">EUR_GBP_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="148">
+            <ColumnName size="1">EUR_GBP_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="149">
+            <ColumnName size="1">EUR_GBP_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="150">
+            <ColumnName size="1">EUR_GBP_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="151">
+            <ColumnName size="1">BRENT_OIL_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="152">
+            <ColumnName size="1">BRENT_OIL_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="153">
+            <ColumnName size="1">BRENT_OIL_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="154">
+            <ColumnName size="1">BRENT_OIL_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="155">
+            <ColumnName size="1">GBP_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="156">
+            <ColumnName size="1">GBP_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="157">
+            <ColumnName size="1">GBP_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="158">
+            <ColumnName size="1">GBP_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="159">
+            <ColumnName size="1">AUD_SGD_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="160">
+            <ColumnName size="1">AUD_SGD_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="161">
+            <ColumnName size="1">AUD_SGD_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="162">
+            <ColumnName size="1">AUD_SGD_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="163">
+            <ColumnName size="1">Russell_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="164">
+            <ColumnName size="1">Russell_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="165">
+            <ColumnName size="1">Russell_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="166">
+            <ColumnName size="1">Russell_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="167">
+            <ColumnName size="1">BRL_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="168">
+            <ColumnName size="1">BRL_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="169">
+            <ColumnName size="1">BRL_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="170">
+            <ColumnName size="1">BRL_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="171">
+            <ColumnName size="1">Gold_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="172">
+            <ColumnName size="1">Gold_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="173">
+            <ColumnName size="1">Gold_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="174">
+            <ColumnName size="1">Gold_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="175">
+            <ColumnName size="1">IBEX_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="176">
+            <ColumnName size="1">IBEX_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="177">
+            <ColumnName size="1">IBEX_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="178">
+            <ColumnName size="1">IBEX_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="179">
+            <ColumnName size="1">코스피지수_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="180">
+            <ColumnName size="1">코스피지수_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="181">
+            <ColumnName size="1">코스피지수_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="182">
+            <ColumnName size="1">코스피지수_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="183">
+            <ColumnName size="1">GBP_USD_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="184">
+            <ColumnName size="1">GBP_USD_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="185">
+            <ColumnName size="1">GBP_USD_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="186">
+            <ColumnName size="1">GBP_USD_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="187">
+            <ColumnName size="1">Corn_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="188">
+            <ColumnName size="1">Corn_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="189">
+            <ColumnName size="1">Corn_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="190">
+            <ColumnName size="1">Corn_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="191">
+            <ColumnName size="1">FTSE_Now_y</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="192">
+            <ColumnName size="1">FTSE_Open_y</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="193">
+            <ColumnName size="1">FTSE_High_y</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="194">
+            <ColumnName size="1">FTSE_Low_y</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="195">
+            <ColumnName size="1">IDX_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="196">
+            <ColumnName size="1">IDX_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="197">
+            <ColumnName size="1">IDX_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="198">
+            <ColumnName size="1">IDX_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="199">
+            <ColumnName size="1">SPAIN_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="200">
+            <ColumnName size="1">SPAIN_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="201">
+            <ColumnName size="1">SPAIN_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="202">
+            <ColumnName size="1">SPAIN_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="203">
+            <ColumnName size="1">NZD_USD_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="204">
+            <ColumnName size="1">NZD_USD_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="205">
+            <ColumnName size="1">NZD_USD_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="206">
+            <ColumnName size="1">NZD_USD_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="207">
+            <ColumnName size="1">CSE_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="208">
+            <ColumnName size="1">CSE_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="209">
+            <ColumnName size="1">CSE_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="210">
+            <ColumnName size="1">CSE_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="211">
+            <ColumnName size="1">JAPAN_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="212">
+            <ColumnName size="1">JAPAN_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="213">
+            <ColumnName size="1">JAPAN_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="214">
+            <ColumnName size="1">JAPAN_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="215">
+            <ColumnName size="1">CAD_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="216">
+            <ColumnName size="1">CAD_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="217">
+            <ColumnName size="1">CAD_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="218">
+            <ColumnName size="1">CAD_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="219">
+            <ColumnName size="1">USD_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="220">
+            <ColumnName size="1">USD_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="221">
+            <ColumnName size="1">USD_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="222">
+            <ColumnName size="1">USD_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="223">
+            <ColumnName size="1">TA_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="224">
+            <ColumnName size="1">TA_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="225">
+            <ColumnName size="1">TA_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="226">
+            <ColumnName size="1">TA_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="227">
+            <ColumnName size="1">S&amp;P_TSX_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="228">
+            <ColumnName size="1">S&amp;P_TSX_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="229">
+            <ColumnName size="1">S&amp;P_TSX_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="230">
+            <ColumnName size="1">S&amp;P_TSX_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="231">
+            <ColumnName size="1">JPY_KRW_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="232">
+            <ColumnName size="1">JPY_KRW_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="233">
+            <ColumnName size="1">JPY_KRW_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="234">
+            <ColumnName size="1">JPY_KRW_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="235">
+            <ColumnName size="1">Tadawul_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="236">
+            <ColumnName size="1">Tadawul_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="237">
+            <ColumnName size="1">Tadawul_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="238">
+            <ColumnName size="1">Tadawul_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="239">
+            <ColumnName size="1">SET_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="240">
+            <ColumnName size="1">SET_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="241">
+            <ColumnName size="1">SET_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="242">
+            <ColumnName size="1">SET_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="243">
+            <ColumnName size="1">HEATING_OIL_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="244">
+            <ColumnName size="1">HEATING_OIL_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="245">
+            <ColumnName size="1">HEATING_OIL_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="246">
+            <ColumnName size="1">HEATING_OIL_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="247">
+            <ColumnName size="1">ITALY_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="248">
+            <ColumnName size="1">ITALY_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="249">
+            <ColumnName size="1">ITALY_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="250">
+            <ColumnName size="1">ITALY_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="251">
+            <ColumnName size="1">USD_JPY_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="252">
+            <ColumnName size="1">USD_JPY_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="253">
+            <ColumnName size="1">USD_JPY_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="254">
+            <ColumnName size="1">USD_JPY_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="255">
+            <ColumnName size="1">Silver_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="256">
+            <ColumnName size="1">Silver_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="257">
+            <ColumnName size="1">Silver_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="258">
+            <ColumnName size="1">Silver_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="259">
+            <ColumnName size="1">US_WHEAT_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="260">
+            <ColumnName size="1">US_WHEAT_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="261">
+            <ColumnName size="1">US_WHEAT_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="262">
+            <ColumnName size="1">US_WHEAT_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="263">
+            <ColumnName size="1">AUS_10_YEAR_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="264">
+            <ColumnName size="1">AUS_10_YEAR_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="265">
+            <ColumnName size="1">AUS_10_YEAR_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="266">
+            <ColumnName size="1">AUS_10_YEAR_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="267">
+            <ColumnName size="1">BEL_Now</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="268">
+            <ColumnName size="1">BEL_Open</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="269">
+            <ColumnName size="1">BEL_High</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+        <Column Index="270">
+            <ColumnName size="1">BEL_Low</ColumnName>
+            <ColumnType>Continuous</ColumnType>
+        </Column>
+    </Columns>
+    <InstancesNumber>487</InstancesNumber>
+    <MissingValues>
+        <MissingValuesNumber>0</MissingValuesNumber>
+    </MissingValues>
+    <PreviewData>
+        <PreviewSize>4</PreviewSize>
+        <Item Index="1" Size="270">
+            <Value>Date</Value>
+            <Value>KOSPI_Now</Value>
+            <Value>CANADA_10_YEAR_Now</Value>
+            <Value>CANADA_10_YEAR_Open</Value>
+            <Value>CANADA_10_YEAR_High</Value>
+            <Value>CANADA_10_YEAR_Low</Value>
+            <Value>EUR_USD_Now</Value>
+            <Value>EUR_USD_Open</Value>
+            <Value>EUR_USD_High</Value>
+            <Value>EUR_USD_Low</Value>
+            <Value>AEX_Now</Value>
+            <Value>AEX_Open</Value>
+            <Value>AEX_High</Value>
+            <Value>AEX_Low</Value>
+            <Value>FTSE_Now_x</Value>
+            <Value>FTSE_Open_x</Value>
+            <Value>FTSE_High_x</Value>
+            <Value>FTSE_Low_x</Value>
+            <Value>IDR_KRW_Now</Value>
+            <Value>IDR_KRW_Open</Value>
+            <Value>IDR_KRW_High</Value>
+            <Value>IDR_KRW_Low</Value>
+            <Value>CNY_KRW_Now</Value>
+            <Value>CNY_KRW_Open</Value>
+            <Value>CNY_KRW_High</Value>
+            <Value>CNY_KRW_Low</Value>
+            <Value>GAS_Now</Value>
+            <Value>GAS_Open</Value>
+            <Value>GAS_High</Value>
+            <Value>GAS_Low</Value>
+            <Value>Brazil_Now</Value>
+            <Value>Brazil_Open</Value>
+            <Value>Brazil_High</Value>
+            <Value>Brazil_Low</Value>
+            <Value>HONH_KONG_10_YEAR_Now</Value>
+            <Value>HONH_KONG_10_YEAR_Open</Value>
+            <Value>HONH_KONG_10_YEAR_High</Value>
+            <Value>HONH_KONG_10_YEAR_Low</Value>
+            <Value>DAX_Now</Value>
+            <Value>DAX_Open</Value>
+            <Value>DAX_High</Value>
+            <Value>DAX_Low</Value>
+            <Value>RTSI_Now</Value>
+            <Value>RTSI_Open</Value>
+            <Value>RTSI_High</Value>
+            <Value>RTSI_Low</Value>
+            <Value>MOEX_Now</Value>
+            <Value>MOEX_Open</Value>
+            <Value>MOEX_High</Value>
+            <Value>MOEX_Low</Value>
+            <Value>UK_10_YEAR_Now</Value>
+            <Value>UK_10_YEAR_Open</Value>
+            <Value>UK_10_YEAR_High</Value>
+            <Value>UK_10_YEAR_Low</Value>
+            <Value>Nifty_Now</Value>
+            <Value>Nifty_Open</Value>
+            <Value>Nifty_High</Value>
+            <Value>Nifty_Low</Value>
+            <Value>S&amp;P_Now</Value>
+            <Value>S&amp;P_Open</Value>
+            <Value>S&amp;P_High</Value>
+            <Value>S&amp;P_Low</Value>
+            <Value>Copper_Now</Value>
+            <Value>Copper_Open</Value>
+            <Value>Copper_High</Value>
+            <Value>Copper_Low</Value>
+            <Value>SANGHAI_Now</Value>
+            <Value>SANGHAI_Open</Value>
+            <Value>SANGHAI_High</Value>
+            <Value>SANGHAI_Low</Value>
+            <Value>EUR_KRW_Now</Value>
+            <Value>EUR_KRW_Open</Value>
+            <Value>EUR_KRW_High</Value>
+            <Value>EUR_KRW_Low</Value>
+            <Value>NASDAQ_Now</Value>
+            <Value>NASDAQ_Open</Value>
+            <Value>NASDAQ_High</Value>
+            <Value>NASDAQ_Low</Value>
+            <Value>HKD_KRW_Now</Value>
+            <Value>HKD_KRW_Open</Value>
+            <Value>HKD_KRW_High</Value>
+            <Value>HKD_KRW_Low</Value>
+            <Value>FRANCE_10_YEAR_Now</Value>
+            <Value>FRANCE_10_YEAR_Open</Value>
+            <Value>FRANCE_10_YEAR_High</Value>
+            <Value>FRANCE_10_YEAR_Low</Value>
+            <Value>US_10_YEAR_Now</Value>
+            <Value>US_10_YEAR_Open</Value>
+            <Value>US_10_YEAR_High</Value>
+            <Value>US_10_YEAR_Low</Value>
+            <Value>CHF_KRW_Now</Value>
+            <Value>CHF_KRW_Open</Value>
+            <Value>CHF_KRW_High</Value>
+            <Value>CHF_KRW_Low</Value>
+            <Value>USD_CAD_Now</Value>
+            <Value>USD_CAD_Open</Value>
+            <Value>USD_CAD_High</Value>
+            <Value>USD_CAD_Low</Value>
+            <Value>GERMANY_10_YEAR_Now</Value>
+            <Value>GERMANY_10_YEAR_Open</Value>
+            <Value>GERMANY_10_YEAR_High</Value>
+            <Value>GERMANY_10_YEAR_Low</Value>
+            <Value>iBovespa_Now</Value>
+            <Value>iBovespa_Open</Value>
+            <Value>iBovespa_High</Value>
+            <Value>iBovespa_Low</Value>
+            <Value>INR_KRW_Now</Value>
+            <Value>INR_KRW_Open</Value>
+            <Value>INR_KRW_High</Value>
+            <Value>INR_KRW_Low</Value>
+            <Value>WTI_Now</Value>
+            <Value>WTI_Open</Value>
+            <Value>WTI_High</Value>
+            <Value>WTI_Low</Value>
+            <Value>S&amp;P_BMV_Now</Value>
+            <Value>S&amp;P_BMV_Open</Value>
+            <Value>S&amp;P_BMV_High</Value>
+            <Value>S&amp;P_BMV_Low</Value>
+            <Value>NIKKEI_Now</Value>
+            <Value>NIKKEI_Open</Value>
+            <Value>NIKKEI_High</Value>
+            <Value>NIKKEI_Low</Value>
+            <Value>SOUTH_KOREA_10_YEAR_Now</Value>
+            <Value>SOUTH_KOREA_10_YEAR_Open</Value>
+            <Value>SOUTH_KOREA_10_YEAR_High</Value>
+            <Value>SOUTH_KOREA_10_YEAR_Low</Value>
+            <Value>SMI_Now</Value>
+            <Value>SMI_Open</Value>
+            <Value>SMI_High</Value>
+            <Value>SMI_Low</Value>
+            <Value>DOWJONES_Now</Value>
+            <Value>DOWJONES_Open</Value>
+            <Value>DOWJONES_High</Value>
+            <Value>DOWJONES_Low</Value>
+            <Value>US_COFFEE_Now</Value>
+            <Value>US_COFFEE_Open</Value>
+            <Value>US_COFFEE_High</Value>
+            <Value>US_COFFEE_Low</Value>
+            <Value>OMXS_Now</Value>
+            <Value>OMXS_Open</Value>
+            <Value>OMXS_High</Value>
+            <Value>OMXS_Low</Value>
+            <Value>AUD_KRW_Now</Value>
+            <Value>AUD_KRW_Open</Value>
+            <Value>AUD_KRW_High</Value>
+            <Value>AUD_KRW_Low</Value>
+            <Value>EUR_GBP_Now</Value>
+            <Value>EUR_GBP_Open</Value>
+            <Value>EUR_GBP_High</Value>
+            <Value>EUR_GBP_Low</Value>
+            <Value>BRENT_OIL_Now</Value>
+            <Value>BRENT_OIL_Open</Value>
+            <Value>BRENT_OIL_High</Value>
+            <Value>BRENT_OIL_Low</Value>
+            <Value>GBP_KRW_Now</Value>
+            <Value>GBP_KRW_Open</Value>
+            <Value>GBP_KRW_High</Value>
+            <Value>GBP_KRW_Low</Value>
+            <Value>AUD_SGD_Now</Value>
+            <Value>AUD_SGD_Open</Value>
+            <Value>AUD_SGD_High</Value>
+            <Value>AUD_SGD_Low</Value>
+            <Value>Russell_Now</Value>
+            <Value>Russell_Open</Value>
+            <Value>Russell_High</Value>
+            <Value>Russell_Low</Value>
+            <Value>BRL_KRW_Now</Value>
+            <Value>BRL_KRW_Open</Value>
+            <Value>BRL_KRW_High</Value>
+            <Value>BRL_KRW_Low</Value>
+            <Value>Gold_Now</Value>
+            <Value>Gold_Open</Value>
+            <Value>Gold_High</Value>
+            <Value>Gold_Low</Value>
+            <Value>IBEX_Now</Value>
+            <Value>IBEX_Open</Value>
+            <Value>IBEX_High</Value>
+            <Value>IBEX_Low</Value>
+            <Value>코스피지수_Now</Value>
+            <Value>코스피지수_Open</Value>
+            <Value>코스피지수_High</Value>
+            <Value>코스피지수_Low</Value>
+            <Value>GBP_USD_Now</Value>
+            <Value>GBP_USD_Open</Value>
+            <Value>GBP_USD_High</Value>
+            <Value>GBP_USD_Low</Value>
+            <Value>Corn_Now</Value>
+            <Value>Corn_Open</Value>
+            <Value>Corn_High</Value>
+            <Value>Corn_Low</Value>
+            <Value>FTSE_Now_y</Value>
+            <Value>FTSE_Open_y</Value>
+            <Value>FTSE_High_y</Value>
+            <Value>FTSE_Low_y</Value>
+            <Value>IDX_Now</Value>
+            <Value>IDX_Open</Value>
+            <Value>IDX_High</Value>
+            <Value>IDX_Low</Value>
+            <Value>SPAIN_10_YEAR_Now</Value>
+            <Value>SPAIN_10_YEAR_Open</Value>
+            <Value>SPAIN_10_YEAR_High</Value>
+            <Value>SPAIN_10_YEAR_Low</Value>
+            <Value>NZD_USD_Now</Value>
+            <Value>NZD_USD_Open</Value>
+            <Value>NZD_USD_High</Value>
+            <Value>NZD_USD_Low</Value>
+            <Value>CSE_Now</Value>
+            <Value>CSE_Open</Value>
+            <Value>CSE_High</Value>
+            <Value>CSE_Low</Value>
+            <Value>JAPAN_10_YEAR_Now</Value>
+            <Value>JAPAN_10_YEAR_Open</Value>
+            <Value>JAPAN_10_YEAR_High</Value>
+            <Value>JAPAN_10_YEAR_Low</Value>
+            <Value>CAD_KRW_Now</Value>
+            <Value>CAD_KRW_Open</Value>
+            <Value>CAD_KRW_High</Value>
+            <Value>CAD_KRW_Low</Value>
+            <Value>USD_KRW_Now</Value>
+            <Value>USD_KRW_Open</Value>
+            <Value>USD_KRW_High</Value>
+            <Value>USD_KRW_Low</Value>
+            <Value>TA_Now</Value>
+            <Value>TA_Open</Value>
+            <Value>TA_High</Value>
+            <Value>TA_Low</Value>
+            <Value>S&amp;P_TSX_Now</Value>
+            <Value>S&amp;P_TSX_Open</Value>
+            <Value>S&amp;P_TSX_High</Value>
+            <Value>S&amp;P_TSX_Low</Value>
+            <Value>JPY_KRW_Now</Value>
+            <Value>JPY_KRW_Open</Value>
+            <Value>JPY_KRW_High</Value>
+            <Value>JPY_KRW_Low</Value>
+            <Value>Tadawul_Now</Value>
+            <Value>Tadawul_Open</Value>
+            <Value>Tadawul_High</Value>
+            <Value>Tadawul_Low</Value>
+            <Value>SET_Now</Value>
+            <Value>SET_Open</Value>
+            <Value>SET_High</Value>
+            <Value>SET_Low</Value>
+            <Value>HEATING_OIL_Now</Value>
+            <Value>HEATING_OIL_Open</Value>
+            <Value>HEATING_OIL_High</Value>
+            <Value>HEATING_OIL_Low</Value>
+            <Value>ITALY_10_YEAR_Now</Value>
+            <Value>ITALY_10_YEAR_Open</Value>
+            <Value>ITALY_10_YEAR_High</Value>
+            <Value>ITALY_10_YEAR_Low</Value>
+            <Value>USD_JPY_Now</Value>
+            <Value>USD_JPY_Open</Value>
+            <Value>USD_JPY_High</Value>
+            <Value>USD_JPY_Low</Value>
+            <Value>Silver_Now</Value>
+            <Value>Silver_Open</Value>
+            <Value>Silver_High</Value>
+            <Value>Silver_Low</Value>
+            <Value>US_WHEAT_Now</Value>
+            <Value>US_WHEAT_Open</Value>
+            <Value>US_WHEAT_High</Value>
+            <Value>US_WHEAT_Low</Value>
+            <Value>AUS_10_YEAR_Now</Value>
+            <Value>AUS_10_YEAR_Open</Value>
+            <Value>AUS_10_YEAR_High</Value>
+            <Value>AUS_10_YEAR_Low</Value>
+            <Value>BEL_Now</Value>
+            <Value>BEL_Open</Value>
+            <Value>BEL_High</Value>
+            <Value>BEL_Low</Value>
+        </Item>
+        <Item Index="2" Size="270">
+            <Value>2007-01-11</Value>
+            <Value>1365.31</Value>
+            <Value>4.055</Value>
+            <Value>4.055</Value>
+            <Value>4.055</Value>
+            <Value>4.055</Value>
+            <Value>1.2934</Value>
+            <Value>1.3002</Value>
+            <Value>1.3008</Value>
+            <Value>1.2931</Value>
+            <Value>492.49</Value>
+            <Value>493.9</Value>
+            <Value>494.2</Value>
+            <Value>490.93</Value>
+            <Value>6160.7</Value>
+            <Value>6196.1</Value>
+            <Value>6196.1</Value>
+            <Value>6142.0</Value>
+            <Value>10.335</Value>
+            <Value>10.395</Value>
+            <Value>10.432</Value>
+            <Value>10.317</Value>
+            <Value>120.13</Value>
+            <Value>120.33</Value>
+            <Value>120.62</Value>
+            <Value>120.03</Value>
+            <Value>6.755</Value>
+            <Value>6.731</Value>
+            <Value>6.807</Value>
+            <Value>6.58</Value>
+            <Value>42335.67</Value>
+            <Value>42000.91</Value>
+            <Value>42335.67</Value>
+            <Value>41266.21</Value>
+            <Value>3.739</Value>
+            <Value>3.739</Value>
+            <Value>3.739</Value>
+            <Value>3.739</Value>
+            <Value>6566.56</Value>
+            <Value>6578.76</Value>
+            <Value>6592.97</Value>
+            <Value>6531.25</Value>
+            <Value>1770.67</Value>
+            <Value>1798.09</Value>
+            <Value>1798.09</Value>
+            <Value>1749.22</Value>
+            <Value>1569.83</Value>
+            <Value>1571.93</Value>
+            <Value>1580.65</Value>
+            <Value>1528.85</Value>
+            <Value>4.803</Value>
+            <Value>4.803</Value>
+            <Value>4.803</Value>
+            <Value>4.803</Value>
+            <Value>3850.3</Value>
+            <Value>3910.95</Value>
+            <Value>3911.95</Value>
+            <Value>3841.7</Value>
+            <Value>1414.85</Value>
+            <Value>1408.7</Value>
+            <Value>1415.99</Value>
+            <Value>1405.32</Value>
+            <Value>2.651</Value>
+            <Value>2.542</Value>
+            <Value>2.6630000000000003</Value>
+            <Value>2.542</Value>
+            <Value>2825.58</Value>
+            <Value>2838.11</Value>
+            <Value>2841.74</Value>
+            <Value>2770.99</Value>
+            <Value>1213.07</Value>
+            <Value>1219.92</Value>
+            <Value>1222.91</Value>
+            <Value>1212.19</Value>
+            <Value>2459.33</Value>
+            <Value>2434.04</Value>
+            <Value>2461.34</Value>
+            <Value>2427.9</Value>
+            <Value>120.255</Value>
+            <Value>120.35</Value>
+            <Value>120.775</Value>
+            <Value>120.19</Value>
+            <Value>4.044</Value>
+            <Value>4.044</Value>
+            <Value>4.044</Value>
+            <Value>4.044</Value>
+            <Value>4.69</Value>
+            <Value>4.69</Value>
+            <Value>4.69</Value>
+            <Value>4.69</Value>
+            <Value>752.15</Value>
+            <Value>755.98</Value>
+            <Value>757.67</Value>
+            <Value>751.3</Value>
+            <Value>1.1756</Value>
+            <Value>1.1764</Value>
+            <Value>1.1796</Value>
+            <Value>1.1751</Value>
+            <Value>4.015</Value>
+            <Value>4.015</Value>
+            <Value>4.015</Value>
+            <Value>4.015</Value>
+            <Value>42695.0</Value>
+            <Value>41945.0</Value>
+            <Value>42720.0</Value>
+            <Value>41550.0</Value>
+            <Value>21.1159</Value>
+            <Value>21.1066</Value>
+            <Value>21.1159</Value>
+            <Value>21.1066</Value>
+            <Value>54.02</Value>
+            <Value>55.75</Value>
+            <Value>55.81</Value>
+            <Value>53.44</Value>
+            <Value>25885.8</Value>
+            <Value>25780.84</Value>
+            <Value>25954.13</Value>
+            <Value>25400.33</Value>
+            <Value>16942.4</Value>
+            <Value>17192.42</Value>
+            <Value>17199.42</Value>
+            <Value>16847.57</Value>
+            <Value>4.97</Value>
+            <Value>4.97</Value>
+            <Value>4.97</Value>
+            <Value>4.97</Value>
+            <Value>8861.6</Value>
+            <Value>8846.58</Value>
+            <Value>8874.4</Value>
+            <Value>8814.6</Value>
+            <Value>12442.16</Value>
+            <Value>12417.0</Value>
+            <Value>12487.18</Value>
+            <Value>12313.01</Value>
+            <Value>120.75</Value>
+            <Value>118.1</Value>
+            <Value>121.4</Value>
+            <Value>118.1</Value>
+            <Value>1133.05</Value>
+            <Value>1143.09</Value>
+            <Value>1143.09</Value>
+            <Value>1128.9</Value>
+            <Value>728.47</Value>
+            <Value>732.52</Value>
+            <Value>735.11</Value>
+            <Value>727.41</Value>
+            <Value>0.6694</Value>
+            <Value>0.6701</Value>
+            <Value>0.6709</Value>
+            <Value>0.6686</Value>
+            <Value>53.69</Value>
+            <Value>55.18</Value>
+            <Value>55.31</Value>
+            <Value>53.09</Value>
+            <Value>1811.79</Value>
+            <Value>1819.93</Value>
+            <Value>1824.57</Value>
+            <Value>1810.97</Value>
+            <Value>1.1932</Value>
+            <Value>1.1988</Value>
+            <Value>1.2015</Value>
+            <Value>1.1917</Value>
+            <Value>778.87</Value>
+            <Value>775.78</Value>
+            <Value>779.45</Value>
+            <Value>773.14</Value>
+            <Value>436.31</Value>
+            <Value>436.09</Value>
+            <Value>436.31</Value>
+            <Value>436.09</Value>
+            <Value>611.6</Value>
+            <Value>611.6</Value>
+            <Value>611.6</Value>
+            <Value>611.6</Value>
+            <Value>14116.1</Value>
+            <Value>14236.7</Value>
+            <Value>14239.4</Value>
+            <Value>14065.7</Value>
+            <Value>1355.79</Value>
+            <Value>1372.52</Value>
+            <Value>1372.52</Value>
+            <Value>1345.08</Value>
+            <Value>1.9318</Value>
+            <Value>1.9396</Value>
+            <Value>1.9424</Value>
+            <Value>1.9317</Value>
+            <Value>360.25</Value>
+            <Value>354.0</Value>
+            <Value>363.5</Value>
+            <Value>352.5</Value>
+            <Value>41360.0</Value>
+            <Value>41382.0</Value>
+            <Value>41566.0</Value>
+            <Value>41234.0</Value>
+            <Value>1710.37</Value>
+            <Value>1746.5</Value>
+            <Value>1747.27</Value>
+            <Value>1703.65</Value>
+            <Value>4.064</Value>
+            <Value>4.064</Value>
+            <Value>4.064</Value>
+            <Value>4.064</Value>
+            <Value>0.6869</Value>
+            <Value>0.6917</Value>
+            <Value>0.6932</Value>
+            <Value>0.6855</Value>
+            <Value>2731.65</Value>
+            <Value>2715.35</Value>
+            <Value>2739.61</Value>
+            <Value>2714.22</Value>
+            <Value>1.761</Value>
+            <Value>1.765</Value>
+            <Value>1.765</Value>
+            <Value>1.761</Value>
+            <Value>797.29</Value>
+            <Value>797.55</Value>
+            <Value>800.04</Value>
+            <Value>794.66</Value>
+            <Value>937.85</Value>
+            <Value>939.95</Value>
+            <Value>941.75</Value>
+            <Value>937.55</Value>
+            <Value>909.61</Value>
+            <Value>913.83</Value>
+            <Value>914.04</Value>
+            <Value>906.44</Value>
+            <Value>12457.55</Value>
+            <Value>12461.21</Value>
+            <Value>12474.16</Value>
+            <Value>12412.55</Value>
+            <Value>7.8373</Value>
+            <Value>7.8613</Value>
+            <Value>7.8923</Value>
+            <Value>7.8266</Value>
+            <Value>7586.61</Value>
+            <Value>7729.91</Value>
+            <Value>7729.91</Value>
+            <Value>7586.61</Value>
+            <Value>622.27</Value>
+            <Value>609.83</Value>
+            <Value>622.27</Value>
+            <Value>608.14</Value>
+            <Value>1.5255</Value>
+            <Value>1.5598</Value>
+            <Value>1.5679</Value>
+            <Value>1.5162</Value>
+            <Value>4.235</Value>
+            <Value>4.235</Value>
+            <Value>4.235</Value>
+            <Value>4.235</Value>
+            <Value>119.67</Value>
+            <Value>119.34</Value>
+            <Value>119.8</Value>
+            <Value>119.12</Value>
+            <Value>12.35</Value>
+            <Value>12.35</Value>
+            <Value>12.35</Value>
+            <Value>12.35</Value>
+            <Value>449.5</Value>
+            <Value>453.0</Value>
+            <Value>457.5</Value>
+            <Value>447.5</Value>
+            <Value>5.855</Value>
+            <Value>5.855</Value>
+            <Value>5.855</Value>
+            <Value>5.855</Value>
+            <Value>4405.87</Value>
+            <Value>4410.86</Value>
+            <Value>4412.84</Value>
+            <Value>4389.93</Value>
+        </Item>
+        <Item Index="3" Size="270">
+            <Value>2007-01-12</Value>
+            <Value>1388.37</Value>
+            <Value>4.073</Value>
+            <Value>4.073</Value>
+            <Value>4.073</Value>
+            <Value>4.073</Value>
+            <Value>1.2893</Value>
+            <Value>1.2937</Value>
+            <Value>1.3016</Value>
+            <Value>1.2881</Value>
+            <Value>500.16</Value>
+            <Value>495.5</Value>
+            <Value>500.32</Value>
+            <Value>493.22</Value>
+            <Value>6230.1</Value>
+            <Value>6160.7</Value>
+            <Value>6233.1</Value>
+            <Value>6130.2</Value>
+            <Value>10.295</Value>
+            <Value>10.341</Value>
+            <Value>10.408</Value>
+            <Value>10.27</Value>
+            <Value>120.47</Value>
+            <Value>120.35</Value>
+            <Value>120.56</Value>
+            <Value>120.13</Value>
+            <Value>6.2920000000000025</Value>
+            <Value>6.693</Value>
+            <Value>6.693</Value>
+            <Value>6.24</Value>
+            <Value>42670.32</Value>
+            <Value>42335.67</Value>
+            <Value>43127.95</Value>
+            <Value>41940.03</Value>
+            <Value>3.771</Value>
+            <Value>3.771</Value>
+            <Value>3.771</Value>
+            <Value>3.771</Value>
+            <Value>6687.3</Value>
+            <Value>6590.74</Value>
+            <Value>6695.74</Value>
+            <Value>6571.59</Value>
+            <Value>1800.61</Value>
+            <Value>1770.67</Value>
+            <Value>1808.23</Value>
+            <Value>1769.31</Value>
+            <Value>1599.67</Value>
+            <Value>1569.64</Value>
+            <Value>1608.19</Value>
+            <Value>1556.53</Value>
+            <Value>4.811</Value>
+            <Value>4.811</Value>
+            <Value>4.811</Value>
+            <Value>4.811</Value>
+            <Value>3942.25</Value>
+            <Value>3852.15</Value>
+            <Value>3953.1</Value>
+            <Value>3833.6</Value>
+            <Value>1423.82</Value>
+            <Value>1414.84</Value>
+            <Value>1427.12</Value>
+            <Value>1414.84</Value>
+            <Value>2.648</Value>
+            <Value>2.68</Value>
+            <Value>2.68</Value>
+            <Value>2.635</Value>
+            <Value>2770.11</Value>
+            <Value>2819.37</Value>
+            <Value>2841.18</Value>
+            <Value>2763.89</Value>
+            <Value>1210.73</Value>
+            <Value>1212.79</Value>
+            <Value>1222.35</Value>
+            <Value>1208.92</Value>
+            <Value>2484.85</Value>
+            <Value>2464.89</Value>
+            <Value>2489.46</Value>
+            <Value>2463.39</Value>
+            <Value>120.395</Value>
+            <Value>120.21</Value>
+            <Value>120.605</Value>
+            <Value>120.21</Value>
+            <Value>4.055</Value>
+            <Value>4.055</Value>
+            <Value>4.055</Value>
+            <Value>4.055</Value>
+            <Value>4.739</Value>
+            <Value>4.739</Value>
+            <Value>4.739</Value>
+            <Value>4.739</Value>
+            <Value>751.82</Value>
+            <Value>752.07</Value>
+            <Value>756.83</Value>
+            <Value>750.46</Value>
+            <Value>1.1765</Value>
+            <Value>1.1746</Value>
+            <Value>1.1804</Value>
+            <Value>1.1691</Value>
+            <Value>4.018</Value>
+            <Value>4.018</Value>
+            <Value>4.018</Value>
+            <Value>4.018</Value>
+            <Value>43094.0</Value>
+            <Value>42700.0</Value>
+            <Value>43570.0</Value>
+            <Value>42260.0</Value>
+            <Value>21.0753</Value>
+            <Value>21.0649</Value>
+            <Value>21.0753</Value>
+            <Value>21.0649</Value>
+            <Value>51.88</Value>
+            <Value>53.59</Value>
+            <Value>54.73</Value>
+            <Value>51.8</Value>
+            <Value>26247.9</Value>
+            <Value>25882.74</Value>
+            <Value>26290.7</Value>
+            <Value>25851.15</Value>
+            <Value>16838.17</Value>
+            <Value>16958.57</Value>
+            <Value>17057.45</Value>
+            <Value>16758.46</Value>
+            <Value>4.97</Value>
+            <Value>4.97</Value>
+            <Value>4.97</Value>
+            <Value>4.97</Value>
+            <Value>8987.91</Value>
+            <Value>8906.52</Value>
+            <Value>8987.91</Value>
+            <Value>8884.98</Value>
+            <Value>12514.98</Value>
+            <Value>12442.96</Value>
+            <Value>12586.12</Value>
+            <Value>12413.72</Value>
+            <Value>120.65</Value>
+            <Value>120.25</Value>
+            <Value>121.75</Value>
+            <Value>119.8</Value>
+            <Value>1160.04</Value>
+            <Value>1133.05</Value>
+            <Value>1161.04</Value>
+            <Value>1133.05</Value>
+            <Value>733.32</Value>
+            <Value>728.42</Value>
+            <Value>736.48</Value>
+            <Value>728.14</Value>
+            <Value>0.6627</Value>
+            <Value>0.6692</Value>
+            <Value>0.6706</Value>
+            <Value>0.6621</Value>
+            <Value>51.7</Value>
+            <Value>53.03</Value>
+            <Value>54.42</Value>
+            <Value>51.65</Value>
+            <Value>1827.24</Value>
+            <Value>1811.91</Value>
+            <Value>1835.14</Value>
+            <Value>1811.07</Value>
+            <Value>1.2074</Value>
+            <Value>1.1928</Value>
+            <Value>1.2105</Value>
+            <Value>1.1925</Value>
+            <Value>788.45</Value>
+            <Value>779.5</Value>
+            <Value>791.0</Value>
+            <Value>779.5</Value>
+            <Value>437.13</Value>
+            <Value>436.76</Value>
+            <Value>437.13</Value>
+            <Value>436.76</Value>
+            <Value>612.4</Value>
+            <Value>612.4</Value>
+            <Value>612.4</Value>
+            <Value>612.4</Value>
+            <Value>14328.8</Value>
+            <Value>14183.2</Value>
+            <Value>14328.8</Value>
+            <Value>14105.2</Value>
+            <Value>1365.31</Value>
+            <Value>1357.57</Value>
+            <Value>1375.31</Value>
+            <Value>1355.63</Value>
+            <Value>1.9461</Value>
+            <Value>1.9327</Value>
+            <Value>1.954</Value>
+            <Value>1.9318</Value>
+            <Value>376.5</Value>
+            <Value>362.0</Value>
+            <Value>380.25</Value>
+            <Value>362.0</Value>
+            <Value>41942.0</Value>
+            <Value>41506.0</Value>
+            <Value>41954.0</Value>
+            <Value>41360.0</Value>
+            <Value>1703.84</Value>
+            <Value>1729.4</Value>
+            <Value>1732.09</Value>
+            <Value>1698.84</Value>
+            <Value>4.074</Value>
+            <Value>4.074</Value>
+            <Value>4.074</Value>
+            <Value>4.074</Value>
+            <Value>0.6918</Value>
+            <Value>0.6869</Value>
+            <Value>0.6934</Value>
+            <Value>0.6859999999999999</Value>
+            <Value>2766.51</Value>
+            <Value>2731.65</Value>
+            <Value>2771.28</Value>
+            <Value>2731.65</Value>
+            <Value>1.7380000000000002</Value>
+            <Value>1.74</Value>
+            <Value>1.745</Value>
+            <Value>1.7380000000000002</Value>
+            <Value>798.02</Value>
+            <Value>798.16</Value>
+            <Value>803.23</Value>
+            <Value>795.12</Value>
+            <Value>938.95</Value>
+            <Value>940.05</Value>
+            <Value>940.45</Value>
+            <Value>937.75</Value>
+            <Value>913.99</Value>
+            <Value>914.67</Value>
+            <Value>915.7</Value>
+            <Value>903.44</Value>
+            <Value>12519.9</Value>
+            <Value>12454.97</Value>
+            <Value>12594.09</Value>
+            <Value>12453.13</Value>
+            <Value>7.7944</Value>
+            <Value>7.8342</Value>
+            <Value>7.8676</Value>
+            <Value>7.7795</Value>
+            <Value>7474.57</Value>
+            <Value>7509.676666666666</Value>
+            <Value>7570.103333333333</Value>
+            <Value>7414.143333333332</Value>
+            <Value>637.63</Value>
+            <Value>625.65</Value>
+            <Value>639.47</Value>
+            <Value>625.65</Value>
+            <Value>1.4804</Value>
+            <Value>1.518</Value>
+            <Value>1.5523</Value>
+            <Value>1.4780000000000002</Value>
+            <Value>4.248</Value>
+            <Value>4.248</Value>
+            <Value>4.248</Value>
+            <Value>4.248</Value>
+            <Value>120.47</Value>
+            <Value>119.64</Value>
+            <Value>120.66</Value>
+            <Value>119.48</Value>
+            <Value>12.375</Value>
+            <Value>12.375</Value>
+            <Value>12.375</Value>
+            <Value>12.375</Value>
+            <Value>456.5</Value>
+            <Value>450.5</Value>
+            <Value>464.5</Value>
+            <Value>450.5</Value>
+            <Value>5.86</Value>
+            <Value>5.86</Value>
+            <Value>5.86</Value>
+            <Value>5.86</Value>
+            <Value>4473.58</Value>
+            <Value>4413.48</Value>
+            <Value>4478.15</Value>
+            <Value>4411.93</Value>
+        </Item>
+        <Item Index="4" Size="270">
+            <Value>2008-12-30</Value>
+            <Value>1124.47</Value>
+            <Value>2.845</Value>
+            <Value>2.845</Value>
+            <Value>2.845</Value>
+            <Value>2.845</Value>
+            <Value>1.3977</Value>
+            <Value>1.406</Value>
+            <Value>1.4362</Value>
+            <Value>1.3968</Value>
+            <Value>240.81</Value>
+            <Value>243.31</Value>
+            <Value>245.25</Value>
+            <Value>239.37</Value>
+            <Value>4319.4</Value>
+            <Value>4216.6</Value>
+            <Value>4326.3</Value>
+            <Value>4216.6</Value>
+            <Value>11.3795</Value>
+            <Value>11.347000000000001</Value>
+            <Value>11.6245</Value>
+            <Value>11.249</Value>
+            <Value>184.51</Value>
+            <Value>185.75</Value>
+            <Value>188.59</Value>
+            <Value>183.99</Value>
+            <Value>6.136</Value>
+            <Value>5.909</Value>
+            <Value>6.175</Value>
+            <Value>5.909</Value>
+            <Value>37060.16</Value>
+            <Value>36864.13</Value>
+            <Value>37631.35</Value>
+            <Value>36637.71</Value>
+            <Value>1.435</Value>
+            <Value>1.435</Value>
+            <Value>1.435</Value>
+            <Value>1.435</Value>
+            <Value>4704.86</Value>
+            <Value>4660.17</Value>
+            <Value>4732.85</Value>
+            <Value>4655.91</Value>
+            <Value>642.83</Value>
+            <Value>644.47</Value>
+            <Value>650.64</Value>
+            <Value>641.71</Value>
+            <Value>613.78</Value>
+            <Value>608.55</Value>
+            <Value>630.67</Value>
+            <Value>608.55</Value>
+            <Value>3.0980000000000003</Value>
+            <Value>3.0980000000000003</Value>
+            <Value>3.0980000000000003</Value>
+            <Value>3.0980000000000003</Value>
+            <Value>2922.2</Value>
+            <Value>2857.15</Value>
+            <Value>2931.8</Value>
+            <Value>2812.9</Value>
+            <Value>869.42</Value>
+            <Value>872.37</Value>
+            <Value>873.7</Value>
+            <Value>857.07</Value>
+            <Value>1.297</Value>
+            <Value>1.29</Value>
+            <Value>1.3019999999999998</Value>
+            <Value>1.2819999999999998</Value>
+            <Value>1850.48</Value>
+            <Value>1846.3</Value>
+            <Value>1856.33</Value>
+            <Value>1815.41</Value>
+            <Value>1764.79</Value>
+            <Value>1826.25</Value>
+            <Value>1834.79</Value>
+            <Value>1762.64</Value>
+            <Value>1510.32</Value>
+            <Value>1529.54</Value>
+            <Value>1530.92</Value>
+            <Value>1493.45</Value>
+            <Value>162.955</Value>
+            <Value>167.57</Value>
+            <Value>167.715</Value>
+            <Value>162.56</Value>
+            <Value>3.352</Value>
+            <Value>3.352</Value>
+            <Value>3.352</Value>
+            <Value>3.352</Value>
+            <Value>2.104</Value>
+            <Value>2.104</Value>
+            <Value>2.104</Value>
+            <Value>2.104</Value>
+            <Value>1192.02</Value>
+            <Value>1215.74</Value>
+            <Value>1220.16</Value>
+            <Value>1188.88</Value>
+            <Value>1.218</Value>
+            <Value>1.222</Value>
+            <Value>1.2225</Value>
+            <Value>1.2072</Value>
+            <Value>2.888</Value>
+            <Value>2.888</Value>
+            <Value>2.888</Value>
+            <Value>2.888</Value>
+            <Value>37621.0</Value>
+            <Value>37855.0</Value>
+            <Value>38280.0</Value>
+            <Value>37320.0</Value>
+            <Value>26.1491</Value>
+            <Value>26.2312</Value>
+            <Value>26.8283</Value>
+            <Value>25.8176</Value>
+            <Value>40.02</Value>
+            <Value>38.4</Value>
+            <Value>42.2</Value>
+            <Value>37.53</Value>
+            <Value>22392.38</Value>
+            <Value>22515.34</Value>
+            <Value>22571.03</Value>
+            <Value>22290.88</Value>
+            <Value>8747.17</Value>
+            <Value>8726.31</Value>
+            <Value>8763.67</Value>
+            <Value>8638.6</Value>
+            <Value>4.44</Value>
+            <Value>4.44</Value>
+            <Value>4.44</Value>
+            <Value>4.44</Value>
+            <Value>5464.96</Value>
+            <Value>5416.59</Value>
+            <Value>5517.89</Value>
+            <Value>5393.98</Value>
+            <Value>8483.93</Value>
+            <Value>8515.87</Value>
+            <Value>8575.6</Value>
+            <Value>8349.24</Value>
+            <Value>106.65</Value>
+            <Value>108.25</Value>
+            <Value>109.35</Value>
+            <Value>106.25</Value>
+            <Value>657.27</Value>
+            <Value>659.18</Value>
+            <Value>665.46</Value>
+            <Value>654.48</Value>
+            <Value>868.0</Value>
+            <Value>891.18</Value>
+            <Value>892.32</Value>
+            <Value>864.47</Value>
+            <Value>0.9644</Value>
+            <Value>0.9587</Value>
+            <Value>0.9802</Value>
+            <Value>0.9586</Value>
+            <Value>40.55</Value>
+            <Value>39.78</Value>
+            <Value>43.18</Value>
+            <Value>38.15</Value>
+            <Value>1830.47</Value>
+            <Value>1904.19</Value>
+            <Value>1907.32</Value>
+            <Value>1823.84</Value>
+            <Value>0.993</Value>
+            <Value>0.9917</Value>
+            <Value>1.003</Value>
+            <Value>0.9877</Value>
+            <Value>466.15</Value>
+            <Value>476.12</Value>
+            <Value>476.18</Value>
+            <Value>461.02</Value>
+            <Value>529.2</Value>
+            <Value>534.67</Value>
+            <Value>543.02</Value>
+            <Value>520.52</Value>
+            <Value>874.6</Value>
+            <Value>882.9</Value>
+            <Value>882.9</Value>
+            <Value>875.0</Value>
+            <Value>9017.7</Value>
+            <Value>9081.0</Value>
+            <Value>9138.2</Value>
+            <Value>8955.3</Value>
+            <Value>1117.59</Value>
+            <Value>1109.4</Value>
+            <Value>1118.35</Value>
+            <Value>1084.26</Value>
+            <Value>1.4493</Value>
+            <Value>1.4663</Value>
+            <Value>1.4775</Value>
+            <Value>1.4455</Value>
+            <Value>393.5</Value>
+            <Value>413.75</Value>
+            <Value>423.75</Value>
+            <Value>390.0</Value>
+            <Value>19167.0</Value>
+            <Value>19275.0</Value>
+            <Value>19317.0</Value>
+            <Value>19063.0</Value>
+            <Value>1348.15</Value>
+            <Value>1341.44</Value>
+            <Value>1353.435</Value>
+            <Value>1335.995</Value>
+            <Value>3.767</Value>
+            <Value>3.767</Value>
+            <Value>3.767</Value>
+            <Value>3.767</Value>
+            <Value>0.5787</Value>
+            <Value>0.5770000000000001</Value>
+            <Value>0.5861</Value>
+            <Value>0.5755</Value>
+            <Value>1496.38</Value>
+            <Value>1505.78</Value>
+            <Value>1509.03</Value>
+            <Value>1496.38</Value>
+            <Value>1.195</Value>
+            <Value>1.215</Value>
+            <Value>1.215</Value>
+            <Value>1.175</Value>
+            <Value>1036.65</Value>
+            <Value>1062.32</Value>
+            <Value>1069.74</Value>
+            <Value>1031.41</Value>
+            <Value>1263.0</Value>
+            <Value>1271.9</Value>
+            <Value>1290.5</Value>
+            <Value>1260.9</Value>
+            <Value>631.39</Value>
+            <Value>627.62</Value>
+            <Value>636.27</Value>
+            <Value>626.04</Value>
+            <Value>8637.29</Value>
+            <Value>8508.33</Value>
+            <Value>8637.29</Value>
+            <Value>8310.55</Value>
+            <Value>13.9388</Value>
+            <Value>14.3145</Value>
+            <Value>14.354000000000001</Value>
+            <Value>13.9109</Value>
+            <Value>4710.77</Value>
+            <Value>4686.68</Value>
+            <Value>4741.35</Value>
+            <Value>4655.42</Value>
+            <Value>446.7</Value>
+            <Value>444.92</Value>
+            <Value>446.7</Value>
+            <Value>440.21</Value>
+            <Value>1.2853</Value>
+            <Value>1.254</Value>
+            <Value>1.3785</Value>
+            <Value>1.2426</Value>
+            <Value>4.385</Value>
+            <Value>4.385</Value>
+            <Value>4.385</Value>
+            <Value>4.385</Value>
+            <Value>90.68</Value>
+            <Value>90.66</Value>
+            <Value>90.77</Value>
+            <Value>89.79</Value>
+            <Value>10.783</Value>
+            <Value>10.965</Value>
+            <Value>10.965</Value>
+            <Value>10.815</Value>
+            <Value>592.0</Value>
+            <Value>599.25</Value>
+            <Value>616.0</Value>
+            <Value>588.25</Value>
+            <Value>3.968</Value>
+            <Value>3.968</Value>
+            <Value>3.968</Value>
+            <Value>3.968</Value>
+            <Value>1883.17</Value>
+            <Value>1869.6</Value>
+            <Value>1893.13</Value>
+            <Value>1868.07</Value>
+        </Item>
+    </PreviewData>
+</NeuralReaderProject>
