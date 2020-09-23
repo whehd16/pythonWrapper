@@ -40,10 +40,10 @@ def cutByYear(csv_paths, cut_list):
                     if int(split_date[0]) not in periods:
                         delete_list.append(i)
             temp_csv = temp_csv.drop(delete_list, 0)
-            temp_csv.to_csv('second(before_preprocessing)'+ str(csv_path.split('_')[1]) + '/'+str(folder)+'/'+str(detail)+'/'+str(start)+'_'+str(end)+'.csv', index = False)
+            temp_csv.to_csv('./second(before_preprocessing)/'+ str(csv_path.split('_')[1]) + '/'+str(folder)+'/'+str(detail)+'/'+str(start)+'_'+str(end)+'.csv', index = False)
 
 
-cutByYear(['./주식_지수_1차_전처리.csv', './주식_변화량_1차_전처리.csv'],
+cutByYear(['./주식_index_1차_전처리.csv', './주식_delta_1차_전처리.csv'],
 [
     #여기는 학습 데이터     #여기는 테스트 데이터
     [4, 22, 2007, 2008], [4, '22_test', 2009, 2010],

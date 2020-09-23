@@ -1,0 +1,2579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by Neural Engine-->
+<NeuralDesignerProject ProjectType="Approximation">
+   <Description Id="wfFHJd"></Description>
+   <DataSet>
+      <DataFile>
+         <FileType>csv</FileType>
+         <FirstCell>No excel</FirstCell>
+         <LastCell>No excel</LastCell>
+         <SheetNumber>0</SheetNumber>
+         <LagsNumber>0</LagsNumber>
+         <StepsAhead>0</StepsAhead>
+         <TimeIndex>0</TimeIndex>
+         <ColumnsName>1</ColumnsName>
+         <RowsLabel>0</RowsLabel>
+         <Separator>Comma</Separator>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <GroupingFactor>0</GroupingFactor>
+         <DataFileName>../../../../second(before_preprocessing)/delta/4/22/2009_2010.csv</DataFileName>
+      </DataFile>
+      <Variables>
+         <VariablesNumber>270</VariablesNumber>
+         <Item Index="1">
+            <Name>Date</Name>
+            <Use>Target</Use>
+         </Item>
+         <Item Index="2">
+            <Name>KOSPI_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="3">
+            <Name>CANADA_10_YEAR_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="4">
+            <Name>CANADA_10_YEAR_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="5">
+            <Name>CANADA_10_YEAR_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="6">
+            <Name>CANADA_10_YEAR_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="7">
+            <Name>EUR_USD_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="8">
+            <Name>EUR_USD_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="9">
+            <Name>EUR_USD_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="10">
+            <Name>EUR_USD_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="11">
+            <Name>AEX_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="12">
+            <Name>AEX_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="13">
+            <Name>AEX_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="14">
+            <Name>AEX_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="15">
+            <Name>FTSE_Now_x</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="16">
+            <Name>FTSE_Open_x</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="17">
+            <Name>FTSE_High_x</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="18">
+            <Name>FTSE_Low_x</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="19">
+            <Name>IDR_KRW_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="20">
+            <Name>IDR_KRW_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="21">
+            <Name>IDR_KRW_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="22">
+            <Name>IDR_KRW_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="23">
+            <Name>CNY_KRW_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="24">
+            <Name>CNY_KRW_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="25">
+            <Name>CNY_KRW_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="26">
+            <Name>CNY_KRW_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="27">
+            <Name>GAS_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="28">
+            <Name>GAS_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="29">
+            <Name>GAS_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="30">
+            <Name>GAS_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="31">
+            <Name>Brazil_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="32">
+            <Name>Brazil_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="33">
+            <Name>Brazil_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="34">
+            <Name>Brazil_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="35">
+            <Name>HONH_KONG_10_YEAR_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="36">
+            <Name>HONH_KONG_10_YEAR_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="37">
+            <Name>HONH_KONG_10_YEAR_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="38">
+            <Name>HONH_KONG_10_YEAR_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="39">
+            <Name>DAX_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="40">
+            <Name>DAX_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="41">
+            <Name>DAX_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="42">
+            <Name>DAX_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="43">
+            <Name>RTSI_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="44">
+            <Name>RTSI_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="45">
+            <Name>RTSI_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="46">
+            <Name>RTSI_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="47">
+            <Name>MOEX_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="48">
+            <Name>MOEX_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="49">
+            <Name>MOEX_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="50">
+            <Name>MOEX_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="51">
+            <Name>UK_10_YEAR_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="52">
+            <Name>UK_10_YEAR_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="53">
+            <Name>UK_10_YEAR_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="54">
+            <Name>UK_10_YEAR_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="55">
+            <Name>Nifty_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="56">
+            <Name>Nifty_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="57">
+            <Name>Nifty_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="58">
+            <Name>Nifty_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="59">
+            <Name>S&amp;P_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="60">
+            <Name>S&amp;P_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="61">
+            <Name>S&amp;P_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="62">
+            <Name>S&amp;P_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="63">
+            <Name>Copper_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="64">
+            <Name>Copper_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="65">
+            <Name>Copper_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="66">
+            <Name>Copper_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="67">
+            <Name>SANGHAI_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="68">
+            <Name>SANGHAI_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="69">
+            <Name>SANGHAI_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="70">
+            <Name>SANGHAI_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="71">
+            <Name>EUR_KRW_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="72">
+            <Name>EUR_KRW_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="73">
+            <Name>EUR_KRW_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="74">
+            <Name>EUR_KRW_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="75">
+            <Name>NASDAQ_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="76">
+            <Name>NASDAQ_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="77">
+            <Name>NASDAQ_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="78">
+            <Name>NASDAQ_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="79">
+            <Name>HKD_KRW_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="80">
+            <Name>HKD_KRW_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="81">
+            <Name>HKD_KRW_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="82">
+            <Name>HKD_KRW_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="83">
+            <Name>FRANCE_10_YEAR_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="84">
+            <Name>FRANCE_10_YEAR_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="85">
+            <Name>FRANCE_10_YEAR_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="86">
+            <Name>FRANCE_10_YEAR_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="87">
+            <Name>US_10_YEAR_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="88">
+            <Name>US_10_YEAR_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="89">
+            <Name>US_10_YEAR_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="90">
+            <Name>US_10_YEAR_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="91">
+            <Name>CHF_KRW_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="92">
+            <Name>CHF_KRW_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="93">
+            <Name>CHF_KRW_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="94">
+            <Name>CHF_KRW_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="95">
+            <Name>USD_CAD_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="96">
+            <Name>USD_CAD_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="97">
+            <Name>USD_CAD_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="98">
+            <Name>USD_CAD_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="99">
+            <Name>GERMANY_10_YEAR_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="100">
+            <Name>GERMANY_10_YEAR_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="101">
+            <Name>GERMANY_10_YEAR_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="102">
+            <Name>GERMANY_10_YEAR_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="103">
+            <Name>iBovespa_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="104">
+            <Name>iBovespa_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="105">
+            <Name>iBovespa_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="106">
+            <Name>iBovespa_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="107">
+            <Name>INR_KRW_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="108">
+            <Name>INR_KRW_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="109">
+            <Name>INR_KRW_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="110">
+            <Name>INR_KRW_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="111">
+            <Name>WTI_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="112">
+            <Name>WTI_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="113">
+            <Name>WTI_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="114">
+            <Name>WTI_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="115">
+            <Name>S&amp;P_BMV_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="116">
+            <Name>S&amp;P_BMV_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="117">
+            <Name>S&amp;P_BMV_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="118">
+            <Name>S&amp;P_BMV_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="119">
+            <Name>NIKKEI_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="120">
+            <Name>NIKKEI_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="121">
+            <Name>NIKKEI_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="122">
+            <Name>NIKKEI_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="123">
+            <Name>SOUTH_KOREA_10_YEAR_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="124">
+            <Name>SOUTH_KOREA_10_YEAR_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="125">
+            <Name>SOUTH_KOREA_10_YEAR_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="126">
+            <Name>SOUTH_KOREA_10_YEAR_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="127">
+            <Name>SMI_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="128">
+            <Name>SMI_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="129">
+            <Name>SMI_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="130">
+            <Name>SMI_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="131">
+            <Name>DOWJONES_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="132">
+            <Name>DOWJONES_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="133">
+            <Name>DOWJONES_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="134">
+            <Name>DOWJONES_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="135">
+            <Name>US_COFFEE_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="136">
+            <Name>US_COFFEE_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="137">
+            <Name>US_COFFEE_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="138">
+            <Name>US_COFFEE_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="139">
+            <Name>OMXS_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="140">
+            <Name>OMXS_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="141">
+            <Name>OMXS_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="142">
+            <Name>OMXS_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="143">
+            <Name>AUD_KRW_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="144">
+            <Name>AUD_KRW_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="145">
+            <Name>AUD_KRW_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="146">
+            <Name>AUD_KRW_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="147">
+            <Name>EUR_GBP_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="148">
+            <Name>EUR_GBP_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="149">
+            <Name>EUR_GBP_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="150">
+            <Name>EUR_GBP_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="151">
+            <Name>BRENT_OIL_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="152">
+            <Name>BRENT_OIL_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="153">
+            <Name>BRENT_OIL_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="154">
+            <Name>BRENT_OIL_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="155">
+            <Name>GBP_KRW_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="156">
+            <Name>GBP_KRW_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="157">
+            <Name>GBP_KRW_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="158">
+            <Name>GBP_KRW_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="159">
+            <Name>AUD_SGD_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="160">
+            <Name>AUD_SGD_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="161">
+            <Name>AUD_SGD_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="162">
+            <Name>AUD_SGD_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="163">
+            <Name>Russell_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="164">
+            <Name>Russell_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="165">
+            <Name>Russell_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="166">
+            <Name>Russell_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="167">
+            <Name>BRL_KRW_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="168">
+            <Name>BRL_KRW_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="169">
+            <Name>BRL_KRW_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="170">
+            <Name>BRL_KRW_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="171">
+            <Name>Gold_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="172">
+            <Name>Gold_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="173">
+            <Name>Gold_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="174">
+            <Name>Gold_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="175">
+            <Name>IBEX_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="176">
+            <Name>IBEX_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="177">
+            <Name>IBEX_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="178">
+            <Name>IBEX_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="179">
+            <Name>Temp_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="180">
+            <Name>Temp_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="181">
+            <Name>Temp_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="182">
+            <Name>Temp_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="183">
+            <Name>GBP_USD_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="184">
+            <Name>GBP_USD_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="185">
+            <Name>GBP_USD_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="186">
+            <Name>GBP_USD_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="187">
+            <Name>Corn_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="188">
+            <Name>Corn_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="189">
+            <Name>Corn_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="190">
+            <Name>Corn_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="191">
+            <Name>FTSE_Now_y</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="192">
+            <Name>FTSE_Open_y</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="193">
+            <Name>FTSE_High_y</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="194">
+            <Name>FTSE_Low_y</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="195">
+            <Name>IDX_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="196">
+            <Name>IDX_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="197">
+            <Name>IDX_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="198">
+            <Name>IDX_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="199">
+            <Name>SPAIN_10_YEAR_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="200">
+            <Name>SPAIN_10_YEAR_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="201">
+            <Name>SPAIN_10_YEAR_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="202">
+            <Name>SPAIN_10_YEAR_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="203">
+            <Name>NZD_USD_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="204">
+            <Name>NZD_USD_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="205">
+            <Name>NZD_USD_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="206">
+            <Name>NZD_USD_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="207">
+            <Name>CSE_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="208">
+            <Name>CSE_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="209">
+            <Name>CSE_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="210">
+            <Name>CSE_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="211">
+            <Name>JAPAN_10_YEAR_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="212">
+            <Name>JAPAN_10_YEAR_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="213">
+            <Name>JAPAN_10_YEAR_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="214">
+            <Name>JAPAN_10_YEAR_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="215">
+            <Name>CAD_KRW_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="216">
+            <Name>CAD_KRW_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="217">
+            <Name>CAD_KRW_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="218">
+            <Name>CAD_KRW_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="219">
+            <Name>USD_KRW_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="220">
+            <Name>USD_KRW_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="221">
+            <Name>USD_KRW_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="222">
+            <Name>USD_KRW_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="223">
+            <Name>TA_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="224">
+            <Name>TA_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="225">
+            <Name>TA_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="226">
+            <Name>TA_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="227">
+            <Name>S&amp;P_TSX_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="228">
+            <Name>S&amp;P_TSX_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="229">
+            <Name>S&amp;P_TSX_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="230">
+            <Name>S&amp;P_TSX_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="231">
+            <Name>JPY_KRW_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="232">
+            <Name>JPY_KRW_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="233">
+            <Name>JPY_KRW_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="234">
+            <Name>JPY_KRW_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="235">
+            <Name>Tadawul_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="236">
+            <Name>Tadawul_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="237">
+            <Name>Tadawul_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="238">
+            <Name>Tadawul_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="239">
+            <Name>SET_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="240">
+            <Name>SET_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="241">
+            <Name>SET_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="242">
+            <Name>SET_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="243">
+            <Name>HEATING_OIL_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="244">
+            <Name>HEATING_OIL_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="245">
+            <Name>HEATING_OIL_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="246">
+            <Name>HEATING_OIL_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="247">
+            <Name>ITALY_10_YEAR_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="248">
+            <Name>ITALY_10_YEAR_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="249">
+            <Name>ITALY_10_YEAR_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="250">
+            <Name>ITALY_10_YEAR_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="251">
+            <Name>USD_JPY_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="252">
+            <Name>USD_JPY_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="253">
+            <Name>USD_JPY_High</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="254">
+            <Name>USD_JPY_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="255">
+            <Name>Silver_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="256">
+            <Name>Silver_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="257">
+            <Name>Silver_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="258">
+            <Name>Silver_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="259">
+            <Name>US_WHEAT_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="260">
+            <Name>US_WHEAT_Open</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="261">
+            <Name>US_WHEAT_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="262">
+            <Name>US_WHEAT_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="263">
+            <Name>AUS_10_YEAR_Now</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="264">
+            <Name>AUS_10_YEAR_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="265">
+            <Name>AUS_10_YEAR_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="266">
+            <Name>AUS_10_YEAR_Low</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="267">
+            <Name>BEL_Now</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="268">
+            <Name>BEL_Open</Name>
+            <Use>Unused</Use>
+         </Item>
+         <Item Index="269">
+            <Name>BEL_High</Name>
+            <Use>Input</Use>
+         </Item>
+         <Item Index="270">
+            <Name>BEL_Low</Name>
+            <Use>Unused</Use>
+         </Item>
+      </Variables>
+      <Instances>
+         <InstancesNumber>504</InstancesNumber>
+         <ItemsUses>1 0 0 1 1 2 0 2 2 1 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 2 0 2 0 0 1 0 2 2 1 0 0 2 2 0 0 0 0 0 2 0 0 2 0 0 0 0 2 2 2 0 0 0 0 2 2 0 0 0 0 0 0 0 2 1 1 1 0 1 0 1 0 0 0 1 1 1 1 1 2 1 0 2 0 0 1 0 2 0 0 0 0 2 2 1 1 0 2 0 2 0 2 1 0 1 0 2 0 0 2 2 0 0 2 0 2 1 0 0 0 0 2 1 1 0 0 2 1 2 0 0 0 2 2 0 0 0 0 1 0 0 0 1 2 0 0 0 0 1 1 2 2 0 0 0 2 0 0 0 0 2 0 1 0 1 0 1 2 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 1 2 0 0 0 1 1 1 1 0 2 0 2 1 0 2 0 2 0 1 2 0 0 1 0 0 0 0 1 0 2 0 0 2 2 2 0 0 0 0 0 2 1 0 2 0 0 0 0 0 0 0 2 0 0 2 0 1 0 0 2 1 0 0 0 1 0 2 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 2 2 0 0 2 0 0 0 0 1 2 0 0 2 1 0 0 0 0 2 0 1 0 0 0 0 0 1 0 1 2 0 2 0 2 0 1 1 0 0 1 0 2 0 2 0 0 0 2 2 1 0 0 1 0 2 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 2 1 1 2 0 0 0 0 0 2 0 1 0 0 2 0 1 0 1 2 0 1 0 0 2 0 1 2 0 1 0 0 0 2 0 0 0 0 2 0 2 0 1 0 2 0 0 0 1 0 1 0 0 2 0 0 0 1 2 0 1 1 0 0 0 2 0 0 0 1 1 1 0 0 0 1 0 0 1 0 0 0 0 0 0 2 0 2 1 1 1 2 0 2 0 0 2 0 2 0 1 2 0 0 0 0 0 0 2 1 0 2 0 2 0 0 0 2 0 1 0 0 1 1 0 0 0 0 2 0 0 0 0 0 0 1 0 0 2 0 0 0 2 0 2</ItemsUses>
+      </Instances>
+      <MissingValues>
+         <InstancesNumber>504</InstancesNumber>
+         <VariablesNumber>270</VariablesNumber>
+         <ScrubbingMethod>Mean</ScrubbingMethod>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+   </DataSet>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>136</InputsNumber>
+         <Item Index="1">
+            <Name>KOSPI_Now</Name>
+         </Item>
+         <Item Index="2">
+            <Name>CANADA_10_YEAR_Now</Name>
+         </Item>
+         <Item Index="3">
+            <Name>CANADA_10_YEAR_Open</Name>
+         </Item>
+         <Item Index="4">
+            <Name>CANADA_10_YEAR_High</Name>
+         </Item>
+         <Item Index="5">
+            <Name>CANADA_10_YEAR_Low</Name>
+         </Item>
+         <Item Index="6">
+            <Name>EUR_USD_Now</Name>
+         </Item>
+         <Item Index="7">
+            <Name>EUR_USD_Open</Name>
+         </Item>
+         <Item Index="8">
+            <Name>EUR_USD_High</Name>
+         </Item>
+         <Item Index="9">
+            <Name>AEX_Now</Name>
+         </Item>
+         <Item Index="10">
+            <Name>AEX_Open</Name>
+         </Item>
+         <Item Index="11">
+            <Name>AEX_High</Name>
+         </Item>
+         <Item Index="12">
+            <Name>FTSE_Open_x</Name>
+         </Item>
+         <Item Index="13">
+            <Name>IDR_KRW_Now</Name>
+         </Item>
+         <Item Index="14">
+            <Name>IDR_KRW_Open</Name>
+         </Item>
+         <Item Index="15">
+            <Name>IDR_KRW_Low</Name>
+         </Item>
+         <Item Index="16">
+            <Name>CNY_KRW_High</Name>
+         </Item>
+         <Item Index="17">
+            <Name>GAS_Open</Name>
+         </Item>
+         <Item Index="18">
+            <Name>GAS_High</Name>
+         </Item>
+         <Item Index="19">
+            <Name>Brazil_Open</Name>
+         </Item>
+         <Item Index="20">
+            <Name>Brazil_High</Name>
+         </Item>
+         <Item Index="21">
+            <Name>HONH_KONG_10_YEAR_Now</Name>
+         </Item>
+         <Item Index="22">
+            <Name>HONH_KONG_10_YEAR_Open</Name>
+         </Item>
+         <Item Index="23">
+            <Name>HONH_KONG_10_YEAR_High</Name>
+         </Item>
+         <Item Index="24">
+            <Name>HONH_KONG_10_YEAR_Low</Name>
+         </Item>
+         <Item Index="25">
+            <Name>DAX_Open</Name>
+         </Item>
+         <Item Index="26">
+            <Name>DAX_High</Name>
+         </Item>
+         <Item Index="27">
+            <Name>DAX_Low</Name>
+         </Item>
+         <Item Index="28">
+            <Name>RTSI_Now</Name>
+         </Item>
+         <Item Index="29">
+            <Name>RTSI_Open</Name>
+         </Item>
+         <Item Index="30">
+            <Name>RTSI_High</Name>
+         </Item>
+         <Item Index="31">
+            <Name>MOEX_Open</Name>
+         </Item>
+         <Item Index="32">
+            <Name>MOEX_High</Name>
+         </Item>
+         <Item Index="33">
+            <Name>MOEX_Low</Name>
+         </Item>
+         <Item Index="34">
+            <Name>UK_10_YEAR_Open</Name>
+         </Item>
+         <Item Index="35">
+            <Name>UK_10_YEAR_High</Name>
+         </Item>
+         <Item Index="36">
+            <Name>UK_10_YEAR_Low</Name>
+         </Item>
+         <Item Index="37">
+            <Name>Nifty_Now</Name>
+         </Item>
+         <Item Index="38">
+            <Name>Nifty_Low</Name>
+         </Item>
+         <Item Index="39">
+            <Name>Copper_Now</Name>
+         </Item>
+         <Item Index="40">
+            <Name>Copper_Low</Name>
+         </Item>
+         <Item Index="41">
+            <Name>SANGHAI_Open</Name>
+         </Item>
+         <Item Index="42">
+            <Name>SANGHAI_High</Name>
+         </Item>
+         <Item Index="43">
+            <Name>EUR_KRW_High</Name>
+         </Item>
+         <Item Index="44">
+            <Name>EUR_KRW_Low</Name>
+         </Item>
+         <Item Index="45">
+            <Name>HKD_KRW_Now</Name>
+         </Item>
+         <Item Index="46">
+            <Name>HKD_KRW_High</Name>
+         </Item>
+         <Item Index="47">
+            <Name>HKD_KRW_Low</Name>
+         </Item>
+         <Item Index="48">
+            <Name>FRANCE_10_YEAR_Now</Name>
+         </Item>
+         <Item Index="49">
+            <Name>FRANCE_10_YEAR_Open</Name>
+         </Item>
+         <Item Index="50">
+            <Name>FRANCE_10_YEAR_Low</Name>
+         </Item>
+         <Item Index="51">
+            <Name>US_10_YEAR_Now</Name>
+         </Item>
+         <Item Index="52">
+            <Name>US_10_YEAR_Open</Name>
+         </Item>
+         <Item Index="53">
+            <Name>US_10_YEAR_High</Name>
+         </Item>
+         <Item Index="54">
+            <Name>US_10_YEAR_Low</Name>
+         </Item>
+         <Item Index="55">
+            <Name>CHF_KRW_High</Name>
+         </Item>
+         <Item Index="56">
+            <Name>CHF_KRW_Low</Name>
+         </Item>
+         <Item Index="57">
+            <Name>GERMANY_10_YEAR_Low</Name>
+         </Item>
+         <Item Index="58">
+            <Name>iBovespa_Open</Name>
+         </Item>
+         <Item Index="59">
+            <Name>INR_KRW_Open</Name>
+         </Item>
+         <Item Index="60">
+            <Name>INR_KRW_High</Name>
+         </Item>
+         <Item Index="61">
+            <Name>INR_KRW_Low</Name>
+         </Item>
+         <Item Index="62">
+            <Name>WTI_Open</Name>
+         </Item>
+         <Item Index="63">
+            <Name>WTI_Low</Name>
+         </Item>
+         <Item Index="64">
+            <Name>S&amp;P_BMV_Now</Name>
+         </Item>
+         <Item Index="65">
+            <Name>S&amp;P_BMV_Open</Name>
+         </Item>
+         <Item Index="66">
+            <Name>S&amp;P_BMV_High</Name>
+         </Item>
+         <Item Index="67">
+            <Name>S&amp;P_BMV_Low</Name>
+         </Item>
+         <Item Index="68">
+            <Name>NIKKEI_High</Name>
+         </Item>
+         <Item Index="69">
+            <Name>SOUTH_KOREA_10_YEAR_Now</Name>
+         </Item>
+         <Item Index="70">
+            <Name>SOUTH_KOREA_10_YEAR_Open</Name>
+         </Item>
+         <Item Index="71">
+            <Name>SMI_High</Name>
+         </Item>
+         <Item Index="72">
+            <Name>SMI_Low</Name>
+         </Item>
+         <Item Index="73">
+            <Name>DOWJONES_High</Name>
+         </Item>
+         <Item Index="74">
+            <Name>US_COFFEE_Open</Name>
+         </Item>
+         <Item Index="75">
+            <Name>US_COFFEE_Low</Name>
+         </Item>
+         <Item Index="76">
+            <Name>OMXS_Open</Name>
+         </Item>
+         <Item Index="77">
+            <Name>OMXS_Low</Name>
+         </Item>
+         <Item Index="78">
+            <Name>AUD_KRW_Now</Name>
+         </Item>
+         <Item Index="79">
+            <Name>AUD_KRW_Low</Name>
+         </Item>
+         <Item Index="80">
+            <Name>EUR_GBP_Now</Name>
+         </Item>
+         <Item Index="81">
+            <Name>EUR_GBP_Open</Name>
+         </Item>
+         <Item Index="82">
+            <Name>EUR_GBP_High</Name>
+         </Item>
+         <Item Index="83">
+            <Name>GBP_KRW_High</Name>
+         </Item>
+         <Item Index="84">
+            <Name>GBP_KRW_Low</Name>
+         </Item>
+         <Item Index="85">
+            <Name>AUD_SGD_High</Name>
+         </Item>
+         <Item Index="86">
+            <Name>Russell_Now</Name>
+         </Item>
+         <Item Index="87">
+            <Name>Russell_High</Name>
+         </Item>
+         <Item Index="88">
+            <Name>BRL_KRW_Now</Name>
+         </Item>
+         <Item Index="89">
+            <Name>BRL_KRW_Open</Name>
+         </Item>
+         <Item Index="90">
+            <Name>IBEX_Now</Name>
+         </Item>
+         <Item Index="91">
+            <Name>IBEX_Open</Name>
+         </Item>
+         <Item Index="92">
+            <Name>IBEX_Low</Name>
+         </Item>
+         <Item Index="93">
+            <Name>Temp_Open</Name>
+         </Item>
+         <Item Index="94">
+            <Name>Temp_High</Name>
+         </Item>
+         <Item Index="95">
+            <Name>GBP_USD_Now</Name>
+         </Item>
+         <Item Index="96">
+            <Name>GBP_USD_Open</Name>
+         </Item>
+         <Item Index="97">
+            <Name>GBP_USD_Low</Name>
+         </Item>
+         <Item Index="98">
+            <Name>Corn_Open</Name>
+         </Item>
+         <Item Index="99">
+            <Name>Corn_Low</Name>
+         </Item>
+         <Item Index="100">
+            <Name>FTSE_Now_y</Name>
+         </Item>
+         <Item Index="101">
+            <Name>FTSE_Open_y</Name>
+         </Item>
+         <Item Index="102">
+            <Name>FTSE_High_y</Name>
+         </Item>
+         <Item Index="103">
+            <Name>FTSE_Low_y</Name>
+         </Item>
+         <Item Index="104">
+            <Name>IDX_Open</Name>
+         </Item>
+         <Item Index="105">
+            <Name>NZD_USD_Low</Name>
+         </Item>
+         <Item Index="106">
+            <Name>CSE_Now</Name>
+         </Item>
+         <Item Index="107">
+            <Name>CSE_High</Name>
+         </Item>
+         <Item Index="108">
+            <Name>JAPAN_10_YEAR_Now</Name>
+         </Item>
+         <Item Index="109">
+            <Name>JAPAN_10_YEAR_Open</Name>
+         </Item>
+         <Item Index="110">
+            <Name>JAPAN_10_YEAR_Low</Name>
+         </Item>
+         <Item Index="111">
+            <Name>CAD_KRW_Open</Name>
+         </Item>
+         <Item Index="112">
+            <Name>CAD_KRW_Low</Name>
+         </Item>
+         <Item Index="113">
+            <Name>USD_KRW_Open</Name>
+         </Item>
+         <Item Index="114">
+            <Name>USD_KRW_High</Name>
+         </Item>
+         <Item Index="115">
+            <Name>TA_Now</Name>
+         </Item>
+         <Item Index="116">
+            <Name>TA_Open</Name>
+         </Item>
+         <Item Index="117">
+            <Name>S&amp;P_TSX_Now</Name>
+         </Item>
+         <Item Index="118">
+            <Name>JPY_KRW_Now</Name>
+         </Item>
+         <Item Index="119">
+            <Name>JPY_KRW_Open</Name>
+         </Item>
+         <Item Index="120">
+            <Name>JPY_KRW_Low</Name>
+         </Item>
+         <Item Index="121">
+            <Name>Tadawul_Now</Name>
+         </Item>
+         <Item Index="122">
+            <Name>SET_Now</Name>
+         </Item>
+         <Item Index="123">
+            <Name>SET_High</Name>
+         </Item>
+         <Item Index="124">
+            <Name>HEATING_OIL_Open</Name>
+         </Item>
+         <Item Index="125">
+            <Name>ITALY_10_YEAR_Now</Name>
+         </Item>
+         <Item Index="126">
+            <Name>ITALY_10_YEAR_High</Name>
+         </Item>
+         <Item Index="127">
+            <Name>USD_JPY_Open</Name>
+         </Item>
+         <Item Index="128">
+            <Name>Silver_High</Name>
+         </Item>
+         <Item Index="129">
+            <Name>Silver_Low</Name>
+         </Item>
+         <Item Index="130">
+            <Name>US_WHEAT_Open</Name>
+         </Item>
+         <Item Index="131">
+            <Name>US_WHEAT_High</Name>
+         </Item>
+         <Item Index="132">
+            <Name>US_WHEAT_Low</Name>
+         </Item>
+         <Item Index="133">
+            <Name>AUS_10_YEAR_High</Name>
+         </Item>
+         <Item Index="134">
+            <Name>AUS_10_YEAR_Low</Name>
+         </Item>
+         <Item Index="135">
+            <Name>BEL_Now</Name>
+         </Item>
+         <Item Index="136">
+            <Name>BEL_High</Name>
+         </Item>
+      </Inputs>
+      <ScalingLayer>
+         <ScalingNeuronsNumber>136</ScalingNeuronsNumber>
+         <ScalingNeuron Index="1">
+            <Minimum>-0.0332</Minimum>
+            <Maximum>0.0236</Maximum>
+            <Mean>-0.000247222</Mean>
+            <StandardDeviation>0.00543138</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="2">
+            <Minimum>-824.4</Minimum>
+            <Maximum>997.5</Maximum>
+            <Mean>1.69167</Mean>
+            <StandardDeviation>179.356</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="3">
+            <Minimum>-653.7</Minimum>
+            <Maximum>672.7</Maximum>
+            <Mean>1.8756</Mean>
+            <StandardDeviation>160.115</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="4">
+            <Minimum>-0.0581</Minimum>
+            <Maximum>0.0623</Maximum>
+            <Mean>0.000177381</Mean>
+            <StandardDeviation>0.0112543</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="5">
+            <Minimum>-1473.14</Minimum>
+            <Maximum>1268.92</Maximum>
+            <Mean>2.71429</Mean>
+            <StandardDeviation>327.303</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="6">
+            <Minimum>-217.67</Minimum>
+            <Maximum>316.55</Maximum>
+            <Mean>10.2173</Mean>
+            <StandardDeviation>44.3493</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="7">
+            <Minimum>-40.4</Minimum>
+            <Maximum>39.3</Maximum>
+            <Mean>1.34895</Mean>
+            <StandardDeviation>10.449</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="8">
+            <Minimum>-155.49</Minimum>
+            <Maximum>105.55</Maximum>
+            <Mean>1.44355</Mean>
+            <StandardDeviation>32.0807</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="9">
+            <Minimum>-65.27</Minimum>
+            <Maximum>54.76</Maximum>
+            <Mean>1.8356</Mean>
+            <StandardDeviation>15.4062</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="10">
+            <Minimum>-1129.32</Minimum>
+            <Maximum>2125.03</Maximum>
+            <Mean>2.58732</Mean>
+            <StandardDeviation>345.957</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="11">
+            <Minimum>-0.378</Minimum>
+            <Maximum>0.338</Maximum>
+            <Mean>0.00336706</Mean>
+            <StandardDeviation>0.0753226</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="12">
+            <Minimum>-653.7</Minimum>
+            <Maximum>672.7</Maximum>
+            <Mean>1.8756</Mean>
+            <StandardDeviation>160.115</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="13">
+            <Minimum>-0.101</Minimum>
+            <Maximum>0.097</Maximum>
+            <Mean>-6.34921e-05</Mean>
+            <StandardDeviation>0.0226966</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="14">
+            <Minimum>-366.43</Minimum>
+            <Maximum>172.85</Maximum>
+            <Mean>3.87921</Mean>
+            <StandardDeviation>56.7893</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="15">
+            <Minimum>-103</Minimum>
+            <Maximum>94.75</Maximum>
+            <Mean>0.377242</Mean>
+            <StandardDeviation>14.1031</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="16">
+            <Minimum>-103.97</Minimum>
+            <Maximum>215.17</Maximum>
+            <Mean>1.445</Mean>
+            <StandardDeviation>31.5196</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="17">
+            <Minimum>-25.47</Minimum>
+            <Maximum>26.06</Maximum>
+            <Mean>0.626627</Mean>
+            <StandardDeviation>7.96218</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="18">
+            <Minimum>-32.88</Minimum>
+            <Maximum>38.06</Maximum>
+            <Mean>0.279722</Mean>
+            <StandardDeviation>7.17855</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="19">
+            <Minimum>-87.59</Minimum>
+            <Maximum>57.51</Maximum>
+            <Mean>1.87155</Mean>
+            <StandardDeviation>18.5088</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="20">
+            <Minimum>-0.0557</Minimum>
+            <Maximum>0.04</Maximum>
+            <Mean>0.000199603</Mean>
+            <StandardDeviation>0.0120145</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="21">
+            <Minimum>-1129.32</Minimum>
+            <Maximum>2125.03</Maximum>
+            <Mean>2.58732</Mean>
+            <StandardDeviation>345.957</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="22">
+            <Minimum>-0.0255</Minimum>
+            <Maximum>0.0171</Maximum>
+            <Mean>0.000355754</Mean>
+            <StandardDeviation>0.00636208</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="23">
+            <Minimum>-217.67</Minimum>
+            <Maximum>316.55</Maximum>
+            <Mean>10.2173</Mean>
+            <StandardDeviation>44.3493</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="24">
+            <Minimum>-358.58</Minimum>
+            <Maximum>455.9</Maximum>
+            <Mean>10.1649</Mean>
+            <StandardDeviation>52.4481</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="25">
+            <Minimum>-2.52</Minimum>
+            <Maximum>2.53</Maximum>
+            <Mean>-0.0164484</Mean>
+            <StandardDeviation>0.69976</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="26">
+            <Minimum>-103</Minimum>
+            <Maximum>94.75</Maximum>
+            <Mean>0.377242</Mean>
+            <StandardDeviation>14.1031</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="27">
+            <Minimum>-103</Minimum>
+            <Maximum>94.75</Maximum>
+            <Mean>0.377242</Mean>
+            <StandardDeviation>14.1031</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="28">
+            <Minimum>-0.378</Minimum>
+            <Maximum>0.338</Maximum>
+            <Mean>0.00336706</Mean>
+            <StandardDeviation>0.0753226</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="29">
+            <Minimum>-118.8</Minimum>
+            <Maximum>135.64</Maximum>
+            <Mean>1.42524</Mean>
+            <StandardDeviation>26.9917</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="30">
+            <Minimum>-44.75</Minimum>
+            <Maximum>46.25</Maximum>
+            <Mean>0.393353</Mean>
+            <StandardDeviation>11.4894</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="31">
+            <Minimum>-0.031</Minimum>
+            <Maximum>0.0299</Maximum>
+            <Mean>0.000634921</Mean>
+            <StandardDeviation>0.00930994</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="32">
+            <Minimum>-0.0325</Minimum>
+            <Maximum>0.0273</Maximum>
+            <Mean>0.00063869</Mean>
+            <StandardDeviation>0.00831077</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="33">
+            <Minimum>-25.47</Minimum>
+            <Maximum>26.06</Maximum>
+            <Mean>0.626627</Mean>
+            <StandardDeviation>7.96218</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="34">
+            <Minimum>-57.6</Minimum>
+            <Maximum>48.9</Maximum>
+            <Mean>1.04742</Mean>
+            <StandardDeviation>11.9642</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="35">
+            <Minimum>-662.8</Minimum>
+            <Maximum>1305.8</Maximum>
+            <Mean>1.9123</Mean>
+            <StandardDeviation>170.734</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="36">
+            <Minimum>-824.4</Minimum>
+            <Maximum>997.5</Maximum>
+            <Mean>1.69167</Mean>
+            <StandardDeviation>179.356</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="37">
+            <Minimum>-653.7</Minimum>
+            <Maximum>672.7</Maximum>
+            <Mean>1.8756</Mean>
+            <StandardDeviation>160.115</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="38">
+            <Minimum>-217.67</Minimum>
+            <Maximum>316.55</Maximum>
+            <Mean>10.2173</Mean>
+            <StandardDeviation>44.3493</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="39">
+            <Minimum>-26.27</Minimum>
+            <Maximum>33.43</Maximum>
+            <Mean>1.35069</Mean>
+            <StandardDeviation>9.19549</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="40">
+            <Minimum>-416.92</Minimum>
+            <Maximum>194.54</Maximum>
+            <Mean>3.78964</Mean>
+            <StandardDeviation>55.8688</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="41">
+            <Minimum>-38.75</Minimum>
+            <Maximum>39.47</Maximum>
+            <Mean>1.16645</Mean>
+            <StandardDeviation>8.92009</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="42">
+            <Minimum>-0.206</Minimum>
+            <Maximum>0.224</Maximum>
+            <Mean>0.000918651</Mean>
+            <StandardDeviation>0.0490485</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="43">
+            <Minimum>-155.49</Minimum>
+            <Maximum>105.55</Maximum>
+            <Mean>1.44355</Mean>
+            <StandardDeviation>32.0807</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="44">
+            <Minimum>-103</Minimum>
+            <Maximum>94.75</Maximum>
+            <Mean>0.377242</Mean>
+            <StandardDeviation>14.1031</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="45">
+            <Minimum>-0.378</Minimum>
+            <Maximum>0.338</Maximum>
+            <Mean>0.00336706</Mean>
+            <StandardDeviation>0.0753226</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="46">
+            <Minimum>-118.8</Minimum>
+            <Maximum>135.64</Maximum>
+            <Mean>1.42524</Mean>
+            <StandardDeviation>26.9917</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="47">
+            <Minimum>-0.0291</Minimum>
+            <Maximum>0.0216</Maximum>
+            <Mean>-0.000210317</Mean>
+            <StandardDeviation>0.00617961</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="48">
+            <Minimum>-0.0332</Minimum>
+            <Maximum>0.0236</Maximum>
+            <Mean>-0.000247222</Mean>
+            <StandardDeviation>0.00543138</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="49">
+            <Minimum>-82.33</Minimum>
+            <Maximum>131.97</Maximum>
+            <Mean>-0.254127</Mean>
+            <StandardDeviation>19.1439</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="50">
+            <Minimum>-0.025</Minimum>
+            <Maximum>0.0358</Maximum>
+            <Mean>0.000626786</Mean>
+            <StandardDeviation>0.00743435</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="51">
+            <Minimum>-37.47</Minimum>
+            <Maximum>36.61</Maximum>
+            <Mean>0.643075</Mean>
+            <StandardDeviation>10.5324</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="52">
+            <Minimum>-25.47</Minimum>
+            <Maximum>26.06</Maximum>
+            <Mean>0.626627</Mean>
+            <StandardDeviation>7.96218</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="53">
+            <Minimum>-35.9</Minimum>
+            <Maximum>28.78</Maximum>
+            <Mean>0.306508</Mean>
+            <StandardDeviation>7.60917</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="54">
+            <Minimum>-32.88</Minimum>
+            <Maximum>38.06</Maximum>
+            <Mean>0.279722</Mean>
+            <StandardDeviation>7.17855</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="55">
+            <Minimum>-653.7</Minimum>
+            <Maximum>672.7</Maximum>
+            <Mean>1.8756</Mean>
+            <StandardDeviation>160.115</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="56">
+            <Minimum>-64.28</Minimum>
+            <Maximum>66.84</Maximum>
+            <Mean>1.82375</Mean>
+            <StandardDeviation>19.6243</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="57">
+            <Minimum>-1566.04</Minimum>
+            <Maximum>1563.37</Maximum>
+            <Mean>2.39286</Mean>
+            <StandardDeviation>368.286</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="58">
+            <Minimum>-1473.14</Minimum>
+            <Maximum>1268.92</Maximum>
+            <Mean>2.71429</Mean>
+            <StandardDeviation>327.303</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="59">
+            <Minimum>-217.67</Minimum>
+            <Maximum>316.55</Maximum>
+            <Mean>10.2173</Mean>
+            <StandardDeviation>44.3493</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="60">
+            <Minimum>-0.075</Minimum>
+            <Maximum>0.082</Maximum>
+            <Mean>-6.94444e-05</Mean>
+            <StandardDeviation>0.0223515</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="61">
+            <Minimum>-0.065</Minimum>
+            <Maximum>0.109</Maximum>
+            <Mean>-0.000138889</Mean>
+            <StandardDeviation>0.0245014</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="62">
+            <Minimum>-34.96</Minimum>
+            <Maximum>56.56</Maximum>
+            <Mean>0.157817</Mean>
+            <StandardDeviation>11.9657</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="63">
+            <Minimum>-72.72</Minimum>
+            <Maximum>77.45</Maximum>
+            <Mean>-0.254762</Mean>
+            <StandardDeviation>13.9477</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="64">
+            <Minimum>-64.63</Minimum>
+            <Maximum>71.25</Maximum>
+            <Mean>-0.281349</Mean>
+            <StandardDeviation>12.6806</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="65">
+            <Minimum>-35.04</Minimum>
+            <Maximum>38.75</Maximum>
+            <Mean>1.38772</Mean>
+            <StandardDeviation>10.1903</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="66">
+            <Minimum>-40.4</Minimum>
+            <Maximum>39.3</Maximum>
+            <Mean>1.34895</Mean>
+            <StandardDeviation>10.449</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="67">
+            <Minimum>-453.77</Minimum>
+            <Maximum>545.54</Maximum>
+            <Mean>9.54738</Mean>
+            <StandardDeviation>131.151</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="68">
+            <Minimum>-0.7332</Minimum>
+            <Maximum>0.5253</Maximum>
+            <Mean>-0.000111905</Mean>
+            <StandardDeviation>0.139375</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="69">
+            <Minimum>-38.75</Minimum>
+            <Maximum>39.47</Maximum>
+            <Mean>1.16645</Mean>
+            <StandardDeviation>8.92009</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="70">
+            <Minimum>-33.22</Minimum>
+            <Maximum>31</Maximum>
+            <Mean>1.17016</Mean>
+            <StandardDeviation>7.97538</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="71">
+            <Minimum>-1.525</Minimum>
+            <Maximum>1.495</Maximum>
+            <Mean>0.0389881</Mean>
+            <StandardDeviation>0.354102</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="72">
+            <Minimum>-1.129</Minimum>
+            <Maximum>1.46</Maximum>
+            <Mean>0.0387401</Mean>
+            <StandardDeviation>0.352231</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="73">
+            <Minimum>-44.75</Minimum>
+            <Maximum>46.25</Maximum>
+            <Mean>0.393353</Mean>
+            <StandardDeviation>11.4894</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="74">
+            <Minimum>-103.97</Minimum>
+            <Maximum>215.17</Maximum>
+            <Mean>1.445</Mean>
+            <StandardDeviation>31.5196</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="75">
+            <Minimum>-118.8</Minimum>
+            <Maximum>135.64</Maximum>
+            <Mean>1.42524</Mean>
+            <StandardDeviation>26.9917</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="76">
+            <Minimum>-118.8</Minimum>
+            <Maximum>135.64</Maximum>
+            <Mean>1.42524</Mean>
+            <StandardDeviation>26.9917</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="77">
+            <Minimum>-44.75</Minimum>
+            <Maximum>46.25</Maximum>
+            <Mean>0.393353</Mean>
+            <StandardDeviation>11.4894</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="78">
+            <Minimum>-0.378</Minimum>
+            <Maximum>0.338</Maximum>
+            <Mean>0.00336706</Mean>
+            <StandardDeviation>0.0753226</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="79">
+            <Minimum>-118.8</Minimum>
+            <Maximum>135.64</Maximum>
+            <Mean>1.42524</Mean>
+            <StandardDeviation>26.9917</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="80">
+            <Minimum>-118.8</Minimum>
+            <Maximum>135.64</Maximum>
+            <Mean>1.42524</Mean>
+            <StandardDeviation>26.9917</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="81">
+            <Minimum>-0.0291</Minimum>
+            <Maximum>0.0216</Maximum>
+            <Mean>-0.000210317</Mean>
+            <StandardDeviation>0.00617961</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="82">
+            <Minimum>-0.0332</Minimum>
+            <Maximum>0.0236</Maximum>
+            <Mean>-0.000247222</Mean>
+            <StandardDeviation>0.00543138</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="83">
+            <Minimum>-82.33</Minimum>
+            <Maximum>131.97</Maximum>
+            <Mean>-0.254127</Mean>
+            <StandardDeviation>19.1439</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="84">
+            <Minimum>-83.77</Minimum>
+            <Maximum>62.03</Maximum>
+            <Mean>-0.138016</Mean>
+            <StandardDeviation>16.3218</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="85">
+            <Minimum>-0.025</Minimum>
+            <Maximum>0.0358</Maximum>
+            <Mean>0.000626786</Mean>
+            <StandardDeviation>0.00743435</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="86">
+            <Minimum>-37.47</Minimum>
+            <Maximum>36.61</Maximum>
+            <Mean>0.643075</Mean>
+            <StandardDeviation>10.5324</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="87">
+            <Minimum>-25.47</Minimum>
+            <Maximum>26.06</Maximum>
+            <Mean>0.626627</Mean>
+            <StandardDeviation>7.96218</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="88">
+            <Minimum>-35.9</Minimum>
+            <Maximum>28.78</Maximum>
+            <Mean>0.306508</Mean>
+            <StandardDeviation>7.60917</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="89">
+            <Minimum>-32.88</Minimum>
+            <Maximum>38.06</Maximum>
+            <Mean>0.279722</Mean>
+            <StandardDeviation>7.17855</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="90">
+            <Minimum>-662.8</Minimum>
+            <Maximum>1305.8</Maximum>
+            <Mean>1.9123</Mean>
+            <StandardDeviation>170.734</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="91">
+            <Minimum>-824.4</Minimum>
+            <Maximum>997.5</Maximum>
+            <Mean>1.69167</Mean>
+            <StandardDeviation>179.356</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="92">
+            <Minimum>-653.7</Minimum>
+            <Maximum>672.7</Maximum>
+            <Mean>1.8756</Mean>
+            <StandardDeviation>160.115</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="93">
+            <Minimum>-64.28</Minimum>
+            <Maximum>66.84</Maximum>
+            <Mean>1.82375</Mean>
+            <StandardDeviation>19.6243</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="94">
+            <Minimum>-65.27</Minimum>
+            <Maximum>54.76</Maximum>
+            <Mean>1.8356</Mean>
+            <StandardDeviation>15.4062</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="95">
+            <Minimum>-0.0557</Minimum>
+            <Maximum>0.04</Maximum>
+            <Mean>0.000199603</Mean>
+            <StandardDeviation>0.0120145</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="96">
+            <Minimum>-0.0537</Minimum>
+            <Maximum>0.0282</Maximum>
+            <Mean>0.000141667</Mean>
+            <StandardDeviation>0.0120995</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="97">
+            <Minimum>-0.0581</Minimum>
+            <Maximum>0.0623</Maximum>
+            <Mean>0.000177381</Mean>
+            <StandardDeviation>0.0112543</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="98">
+            <Minimum>-38</Minimum>
+            <Maximum>75.5</Maximum>
+            <Mean>0.414187</Mean>
+            <StandardDeviation>9.24256</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="99">
+            <Minimum>-38</Minimum>
+            <Maximum>59</Maximum>
+            <Mean>0.454365</Mean>
+            <StandardDeviation>8.07285</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="100">
+            <Minimum>-1129.32</Minimum>
+            <Maximum>2125.03</Maximum>
+            <Mean>2.58732</Mean>
+            <StandardDeviation>345.957</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="101">
+            <Minimum>-1566.04</Minimum>
+            <Maximum>1563.37</Maximum>
+            <Mean>2.39286</Mean>
+            <StandardDeviation>368.286</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="102">
+            <Minimum>-1222.94</Minimum>
+            <Maximum>1164.24</Maximum>
+            <Mean>2.55159</Mean>
+            <StandardDeviation>297.661</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="103">
+            <Minimum>-1473.14</Minimum>
+            <Maximum>1268.92</Maximum>
+            <Mean>2.71429</Mean>
+            <StandardDeviation>327.303</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="104">
+            <Minimum>-115.25</Minimum>
+            <Maximum>181.37</Maximum>
+            <Mean>4.6005</Mean>
+            <StandardDeviation>32.8672</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="105">
+            <Minimum>-0.0255</Minimum>
+            <Maximum>0.0171</Maximum>
+            <Mean>0.000355754</Mean>
+            <StandardDeviation>0.00636208</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="106">
+            <Minimum>-300.59</Minimum>
+            <Maximum>367.06</Maximum>
+            <Mean>10.2193</Mean>
+            <StandardDeviation>45.2935</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="107">
+            <Minimum>-217.67</Minimum>
+            <Maximum>316.55</Maximum>
+            <Mean>10.2173</Mean>
+            <StandardDeviation>44.3493</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="108">
+            <Minimum>-0.075</Minimum>
+            <Maximum>0.082</Maximum>
+            <Mean>-6.94444e-05</Mean>
+            <StandardDeviation>0.0223515</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="109">
+            <Minimum>-0.065</Minimum>
+            <Maximum>0.109</Maximum>
+            <Mean>-0.000138889</Mean>
+            <StandardDeviation>0.0245014</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="110">
+            <Minimum>-0.075</Minimum>
+            <Maximum>0.103</Maximum>
+            <Mean>-5.95238e-05</Mean>
+            <StandardDeviation>0.0208077</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="111">
+            <Minimum>-34.96</Minimum>
+            <Maximum>56.56</Maximum>
+            <Mean>0.157817</Mean>
+            <StandardDeviation>11.9657</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="112">
+            <Minimum>-35.35</Minimum>
+            <Maximum>36.92</Maximum>
+            <Mean>0.207877</Mean>
+            <StandardDeviation>8.44182</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="113">
+            <Minimum>-72.72</Minimum>
+            <Maximum>77.45</Maximum>
+            <Mean>-0.254762</Mean>
+            <StandardDeviation>13.9477</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="114">
+            <Minimum>-64.63</Minimum>
+            <Maximum>71.25</Maximum>
+            <Mean>-0.281349</Mean>
+            <StandardDeviation>12.6806</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="115">
+            <Minimum>-35.04</Minimum>
+            <Maximum>38.75</Maximum>
+            <Mean>1.38772</Mean>
+            <StandardDeviation>10.1903</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="116">
+            <Minimum>-40.4</Minimum>
+            <Maximum>39.3</Maximum>
+            <Mean>1.34895</Mean>
+            <StandardDeviation>10.449</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="117">
+            <Minimum>-453.77</Minimum>
+            <Maximum>545.54</Maximum>
+            <Mean>9.54738</Mean>
+            <StandardDeviation>131.151</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="118">
+            <Minimum>-0.7435</Minimum>
+            <Maximum>0.815</Maximum>
+            <Mean>0.00019881</Mean>
+            <StandardDeviation>0.176899</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="119">
+            <Minimum>-0.8104</Minimum>
+            <Maximum>0.6997</Maximum>
+            <Mean>-0.000902579</Mean>
+            <StandardDeviation>0.173975</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="120">
+            <Minimum>-0.7332</Minimum>
+            <Maximum>0.5253</Maximum>
+            <Mean>-0.000111905</Mean>
+            <StandardDeviation>0.139375</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="121">
+            <Minimum>-416.92</Minimum>
+            <Maximum>194.54</Maximum>
+            <Mean>3.78964</Mean>
+            <StandardDeviation>55.8688</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="122">
+            <Minimum>-38.75</Minimum>
+            <Maximum>39.47</Maximum>
+            <Mean>1.16645</Mean>
+            <StandardDeviation>8.92009</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="123">
+            <Minimum>-33.22</Minimum>
+            <Maximum>31</Maximum>
+            <Mean>1.17016</Mean>
+            <StandardDeviation>7.97538</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="124">
+            <Minimum>-0.161</Minimum>
+            <Maximum>0.1427</Maximum>
+            <Mean>0.0025119</Mean>
+            <StandardDeviation>0.0397671</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="125">
+            <Minimum>-0.206</Minimum>
+            <Maximum>0.224</Maximum>
+            <Mean>0.000918651</Mean>
+            <StandardDeviation>0.0490485</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="126">
+            <Minimum>-0.206</Minimum>
+            <Maximum>0.224</Maximum>
+            <Mean>0.000918651</Mean>
+            <StandardDeviation>0.0490485</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="127">
+            <Minimum>-2.52</Minimum>
+            <Maximum>2.53</Maximum>
+            <Mean>-0.0164484</Mean>
+            <StandardDeviation>0.69976</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="128">
+            <Minimum>-1.525</Minimum>
+            <Maximum>1.495</Maximum>
+            <Mean>0.0389881</Mean>
+            <StandardDeviation>0.354102</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="129">
+            <Minimum>-1.129</Minimum>
+            <Maximum>1.46</Maximum>
+            <Mean>0.0387401</Mean>
+            <StandardDeviation>0.352231</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="130">
+            <Minimum>-122.12</Minimum>
+            <Maximum>89.37</Maximum>
+            <Mean>0.397579</Mean>
+            <StandardDeviation>15.1488</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="131">
+            <Minimum>-103</Minimum>
+            <Maximum>94.75</Maximum>
+            <Mean>0.377242</Mean>
+            <StandardDeviation>14.1031</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="132">
+            <Minimum>-44.75</Minimum>
+            <Maximum>46.25</Maximum>
+            <Mean>0.393353</Mean>
+            <StandardDeviation>11.4894</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="133">
+            <Minimum>-0.378</Minimum>
+            <Maximum>0.338</Maximum>
+            <Mean>0.00336706</Mean>
+            <StandardDeviation>0.0753226</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="134">
+            <Minimum>-0.378</Minimum>
+            <Maximum>0.338</Maximum>
+            <Mean>0.00336706</Mean>
+            <StandardDeviation>0.0753226</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="135">
+            <Minimum>-103.97</Minimum>
+            <Maximum>215.17</Maximum>
+            <Mean>1.445</Mean>
+            <StandardDeviation>31.5196</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+         <ScalingNeuron Index="136">
+            <Minimum>-118.8</Minimum>
+            <Maximum>135.64</Maximum>
+            <Mean>1.42524</Mean>
+            <StandardDeviation>26.9917</StandardDeviation>
+            <ScalingMethod>MeanStandardDeviation</ScalingMethod>
+         </ScalingNeuron>
+      </ScalingLayer>
+      <PrincipalComponentsLayer>
+         <InputsNumber>136</InputsNumber>
+         <PrincipalComponentsNumber>0</PrincipalComponentsNumber>
+         <PrincipalComponentsMethod>NoPrincipalComponents</PrincipalComponentsMethod>
+      </PrincipalComponentsLayer>
+      <MultilayerPerceptron>
+         <Architecture>136 3 1</Architecture>
+         <LayersActivationFunction>HyperbolicTangent Linear</LayersActivationFunction>
+         <Parameters>-0.865232 -0.383217 0.311444 0.379551 -0.00235489 -0.563945 -0.300989 -0.398218 -0.40992 0.402895 -0.510374 -0.0971614 0.74787 0.444844 1.23315 0.185479 0.99424 -0.643925 -0.283512 0.299952 -0.239299 -0.349905 -0.0718417 -0.200127 -0.0717063 -0.514323 -0.51058 -0.952672 -0.111969 -1.00416 -0.324742 -0.630516 0.200854 0.0203036 0.302734 0.223613 0.634443 0.666863 -0.043726 -1.34324 0.9086 -0.470664 0.676114 -0.609246 0.864626 0.209622 0.243362 -0.22115 -0.221059 -0.361087 -0.359898 -0.0641357 -0.267565 -0.292361 -0.0999425 -0.0357878 0.439462 -0.0932883 -0.245696 -0.283665 0.0084283 -0.511465 0.147121 -0.329386 0.619564 -0.545325 1.07571 0.0539401 -0.197095 -0.0286726 0.0133576 -0.264853 -1.25478 -0.29905 -0.298523 0.268959 -0.219237 0.397585 -0.0071781 -0.158364 -0.451001 0.687431 0.269379 -0.261525 0.0797604 -0.837051 -0.658721 1.09264 0.868395 0.5846 0.533455 0.442528 -0.37341 0.637822 -0.0678833 0.0466602 0.330562 0.173863 -0.704461 -0.198714 0.480853 -0.109958 0.214845 -0.000767336 0.309906 -0.065139 0.476554 -0.39455 -0.331521 -0.135174 0.367406 0.115111 0.529769 0.337052 0.409134 0.273635 0.339537 1.09615 0.873039 0.253694 -0.818764 0.23461 -0.316582 -0.663662 -0.332109 -0.218955 -1.44112 1.08044 -0.371739 0.791641 0.441422 -0.987982 -0.200044 -0.215552 -0.415513 -0.156623 -0.413623 -1.11421 0.47051 -0.0337712 -0.467337 -0.611243 0.994076 1.0727 -0.729447 0.478447 0.139247 0.229338 -0.212676 0.74184 -0.0688759 0.0548939 0.592889 1.38706 -0.0165562 -0.928449 -0.505717 -0.410076 -0.514481 -0.306469 0.377462 -0.0873488 1.4021 0.354352 -0.0987094 -0.782506 -0.632003 0.140113 0.0993137 -0.386606 0.094455 -0.127343 -0.358476 -1.45116 0.0783901 -1.13476 -0.852321 0.156195 -0.0229146 0.06147 -0.883234 0.102475 0.628134 -0.705849 -0.647796 -0.801725 -0.449968 -0.391673 -0.418756 -0.512551 0.404502 0.667379 0.872781 1.08244 -1.31492 -0.538529 -0.214964 -0.527208 -0.439339 -0.548044 1.63065 0.409578 0.941103 0.264559 -0.461203 -1.12781 -1.1524 -0.192523 -0.480789 0.982698 0.23291 -0.134178 -0.527762 0.875065 -0.346755 -0.415865 1.0652 0.908063 -0.614553 0.316388 0.436137 -0.175674 0.271157 1.43442 0.485904 -0.81255 0.0811868 -0.03275 0.451018 0.601473 -0.161719 0.235694 0.688318 -0.70891 -0.934287 -0.437358 -0.0967768 -0.499241 1.25403 -0.263141 0.842085 3.0335 1.98423 -0.339443 -1.40037 0.344599 0.378761 -0.647605 -0.438352 -0.368858 0.222217 -0.877935 1.02923 -0.11346 0.402199 0.0639504 -1.09175 0.598293 0.26117 0.939948 -0.142606 -0.248253 0.50189 0.151468 -0.129711 -0.0413987 1.92685 0.862927 -0.404386 -0.295182 0.301687 0.732964 -0.578503 -0.901125 1.1018 -0.227272 0.0790986 0.126068 -0.810975 -0.371925 0.105328 -0.52195 0.453937 0.65967 0.0661979 -0.324689 -0.0588787 0.332579 -1.14163 -0.574053 0.19453 -0.730038 0.009072 0.0175486 0.0638886 0.0623303 -0.00235535 0.246699 -0.0239818 0.272214 -0.684645 -0.532805 0.421788 0.0143337 -0.264597 0.943122 0.797287 1.03849 1.32622 0.555049 -1.07664 0.0221082 -0.506228 -1.60446 -0.745665 -0.329763 0.769297 0.617199 0.0914484 -0.13099 -0.0291045 -0.192949 -0.396602 -0.387137 -0.392331 -0.462595 0.828892 0.686734 0.241307 -0.925176 1.20473 1.29643 0.519285 0.656891 -0.537889 -0.53502 -0.267614 -0.138621 -0.0338366 0.12609 0.602703 1.36628 -1.01099 -0.11187 -0.362966 0.338834 1.58367 0.826567 -0.118285 -0.0108087 -0.211907 -0.307393 -0.228383 -0.979113 0.137935 0.181139 -1.2429 -0.227793 -0.410631 -0.122209 -0.53704 -0.254014 -0.207465 -0.154678 0.112838 0.115217 0.302541 -0.98354 -0.582652 1.96062 1.40652 -0.0123805 0.449518 0.516505 0.0565744 0.0152751 -1.23904 -1.64307 -1.71762 -1.30827 -1.24515 -1.33075 0.0877179 -0.226313 0.226493 0.97066 -0.875508 1.38552 -0.738452 0.677516 0.864659 0.796808 -0.847051 -1.59724 -2.09378 0.387488 -0.343155 -0.435042 -1.86592 1.17237 0.841157 0.49093 -0.400481 1.15893 -0.335783 -0.335783 -0.456187 -0.769124 -1.46073 -0.293859 0.651742 -0.45702 0.306811 0.403769 -0.0323785</Parameters>
+      </MultilayerPerceptron>
+      <UnscalingLayer>
+         <UnscalingNeuronsNumber>1</UnscalingNeuronsNumber>
+         <Statistics Index="1">
+            <Minimum>1.23082e+09</Minimum>
+            <Maximum>1.29363e+09</Maximum>
+            <Mean>0</Mean>
+            <StandardDeviation>1</StandardDeviation>
+         </Statistics>
+         <UnscalingMethod>MinimumMaximum</UnscalingMethod>
+      </UnscalingLayer>
+      <BoundingLayer>
+         <BoundingNeuronsNumber>1</BoundingNeuronsNumber>
+         <Item Index="1">
+            <LowerBound>1.23082e+09</LowerBound>
+            <UpperBound>1.29363e+09</UpperBound>
+         </Item>
+         <UseBoundingLayer>0</UseBoundingLayer>
+      </BoundingLayer>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Item Index="1">
+            <Name>Date</Name>
+         </Item>
+      </Outputs>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <LossIndex>
+         <Error Type="NORMALIZED_SQUARED_ERROR"/>
+         <Regularization Type="L2_NORM">
+            <NeuralParametersNormWeight>0.001</NeuralParametersNormWeight>
+         </Regularization>
+      </LossIndex>
+      <Main Type="QUASI_NEWTON_METHOD">
+         <InverseHessianApproximationMethod>BFGS</InverseHessianApproximationMethod>
+         <LearningRateAlgorithm>
+            <LearningRateMethod>BrentMethod</LearningRateMethod>
+            <LearningRateTolerance>0.001</LearningRateTolerance>
+         </LearningRateAlgorithm>
+         <ReturnMinimumSelectionErrorNN>0</ReturnMinimumSelectionErrorNN>
+         <ApplyEarlyStopping>0</ApplyEarlyStopping>
+         <MinimumParametersIncrementNorm>1e-09</MinimumParametersIncrementNorm>
+         <MinimumLossDecrease>1e-12</MinimumLossDecrease>
+         <LossGoal>1e-12</LossGoal>
+         <GradientNormGoal>0.001</GradientNormGoal>
+         <MaximumSelectionErrorIncreases>100</MaximumSelectionErrorIncreases>
+         <MaximumIterationsNumber>1000</MaximumIterationsNumber>
+         <MaximumTime>3600</MaximumTime>
+         <ReserveParametersNormHistory>0</ReserveParametersNormHistory>
+         <ReserveErrorHistory>1</ReserveErrorHistory>
+         <ReserveSelectionErrorHistory>1</ReserveSelectionErrorHistory>
+         <ReserveGradientNormHistory>0</ReserveGradientNormHistory>
+      </Main>
+   </TrainingStrategy>
+   <ModelSelection>
+      <InputsSelection Type="GENETIC_ALGORITHM">
+         <TrialsNumber>1</TrialsNumber>
+         <Tolerance>0.01</Tolerance>
+         <PopulationSize>10</PopulationSize>
+         <InitializationMethod>Random</InitializationMethod>
+         <FitnessAssignmentMethod>RankBased</FitnessAssignmentMethod>
+         <CrossoverMethod>Uniform</CrossoverMethod>
+         <ElitismSize>2</ElitismSize>
+         <CrossoverFirstPoint>0</CrossoverFirstPoint>
+         <CrossoverSecondPoint>0</CrossoverSecondPoint>
+         <SelectivePressure>1.5</SelectivePressure>
+         <MutationRate>0.05</MutationRate>
+         <SelectionErrorGoal>0</SelectionErrorGoal>
+         <MaximumGenerationsNumber>50</MaximumGenerationsNumber>
+         <MaximumTime>46800</MaximumTime>
+         <ReserveGenerationOptimumLoss>1</ReserveGenerationOptimumLoss>
+         <ReserveGenerationMinimumSelection>1</ReserveGenerationMinimumSelection>
+         <ReserveGenerationMean>1</ReserveGenerationMean>
+         <ReserveGenerationStandardDeviation>0</ReserveGenerationStandardDeviation>
+      </InputsSelection>
+      <OrderSelection Type="INCREMENTAL_ORDER">
+         <MinimumOrder>1</MinimumOrder>
+         <MaximumOrder>10</MaximumOrder>
+         <Step>1</Step>
+         <TrialsNumber>3</TrialsNumber>
+         <Tolerance>0.01</Tolerance>
+         <SelectionErrorGoal>0</SelectionErrorGoal>
+         <MaximumSelectionFailures>5</MaximumSelectionFailures>
+         <MaximumTime>3600</MaximumTime>
+         <ReserveErrorHistory>1</ReserveErrorHistory>
+         <ReserveSelectionErrorHistory>1</ReserveSelectionErrorHistory>
+      </OrderSelection>
+   </ModelSelection>
+</NeuralDesignerProject>

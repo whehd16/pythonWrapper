@@ -8,8 +8,9 @@ def deleteCSV(csv_path, save_path):
     delete_list = []
     delete_list.append(0)
     delete_list.append(1)
-    print(csv.columns)
-    print(csv['Date'][0])
+    csv = csv.drop([csv.columns[178], csv.columns[179], csv.columns[180], csv.columns[181]], 1)
+    # print(csv.columns)
+    # print(csv['Date'][0])
     for col in csv.columns:
         if col != 'Date' and col != 'KOSPI_Now':
             temp = csv[col][0]
@@ -24,5 +25,5 @@ def deleteCSV(csv_path, save_path):
     csv = csv.drop(delete_list, 0)
     csv.to_csv(save_path, index=False)
 
-deleteCSV('./주식_변화량.csv', './전처리/주식_delta_1차_전처리.csv')
-deleteCSV('./주식_지수.csv','./전처리/주식_index_1차_전처리.csv')
+deleteCSV('../주식_변화량.csv', './주식_delta_1차_전처리.csv')
+deleteCSV('../주식_지수.csv','./주식_index_1차_전처리.csv')
