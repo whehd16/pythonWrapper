@@ -1,7 +1,7 @@
 import pandas as pd
 
 #특징선택 이후 csv 편
-def makeArrf(kospiCSV, f):
+def makeArff(kospiCSV, f):
     target = 'KOSPI'
     f.write('@relation ' + target + '\n')
 
@@ -31,7 +31,8 @@ def makeArrf(kospiCSV, f):
 def deleteFeatures(csv_path, delete_list, f):
     csv = pd.read_csv(csv_path)
     csv = csv.drop([csv.columns[i-1] for i in delete_list], 1)
-    makeArrf(csv, f)
+    makeArff(csv, f)
+
 
 # train csv 랑 test csv 모두 특징 지워서 arff 로 만들어보기!
 #지수 unused
@@ -84,5 +85,118 @@ delta_2011_2014 = [3,5,9,10,11,13,14,15,16,17,18,19,21,23,26,27,28,30,34,38,41,4
 delta_2007_2011 = [3,5,6,9,14,15,17,22,23,26,30,31,33,38,39,40,43,45,46,47,48,49,52,53,56,57,60,63,65,67,70,72,74,79,86,87,88,89,90,92,96,99,101,102,104,105,108,110,115,116,118,121,123,125,126,129,132,133,134,137,141,147,151,155,157,158,159,161,162,163,164,168,169,173,174,175,176,177,178,180,181,184,185,186,189,193,194,197,198,199,202,207,210,213,215,218,221,224,225,226,227,229,233,237,238,242,244,245,246,248,250,256,260,262,263]
 delta_2011_2015 = [4,6,9,11,12,13,14,15,20,21,27,28,29,33,35,36,37,38,39,40,43,45,49,51,52,58,59,63,64,65,67,68,69,70,74,76,80,82,83,85,89,90,92,94,95,97,98,99,102,105,106,112,113,114,116,121,124,126,127,128,129,131,137,138,140,141,143,144,145,148,150,151,152,153,154,155,156,157,162,168,175,178,183,185,191,192,193,194,196,197,199,201,204,205,206,210,212,214,219,222,229,234,235,237,238,239,240,242,245,246,247,248,250,254,257,262,264,265]
 
-arff_fs_22_2007_2010 = open("../data/arff_ver2/afterFS/4/22/fs_2007_2010.arff",'w')
-origin_2007_2010 = pd.read_csv('../data/2007-2010.csv')
+#makeArff(kospiCSV, f)
+#deleteFeatures(csv_path, deletelist, f) ,f = open("../data/arff_ver2/afterFS/4/22/fs_2007_2010.arff",'w')
+# arff_fs_22_2007_2010 = open("../data/arff_ver2/afterFS/4/22/fs_2007_2010.arff",'w')
+# origin_2007_2010 = pd.read_csv('../data/2007-2010.csv')
+
+
+#지수부터 해보자(index)
+#학습
+deleteFeatures('./second(before_preprocessing)/index/4/22/2007_2008.csv', index_2007_2008, open('./third(after_preprocessing)/index/4/22/2007_2008.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/22/2009_2010.csv', index_2009_2010, open('./third(after_preprocessing)/index/4/22/2009_2010.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/22/2011_2012.csv', index_2011_2012, open('./third(after_preprocessing)/index/4/22/2011_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/22/2013_2014.csv', index_2013_2014, open('./third(after_preprocessing)/index/4/22/2013_2014.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/22/2015_2016.csv', index_2015_2016, open('./third(after_preprocessing)/index/4/22/2015_2016.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/index/4/31/2007_2009.csv', index_2007_2009, open('./third(after_preprocessing)/index/4/31/2007_2009.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/31/2009_2011.csv', index_2009_2011, open('./third(after_preprocessing)/index/4/31/2009_2011.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/31/2011_2013.csv', index_2011_2013, open('./third(after_preprocessing)/index/4/31/2011_2013.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/31/2013_2015.csv', index_2013_2015, open('./third(after_preprocessing)/index/4/31/2013_2015.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/31/2015_2017.csv', index_2015_2017, open('./third(after_preprocessing)/index/4/31/2015_2017.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/index/6/33/2007_2009.csv', index_2007_2009, open('./third(after_preprocessing)/index/6/33/2007_2009.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/6/33/2010_2012.csv', index_2010_2012, open('./third(after_preprocessing)/index/6/33/2010_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/6/33/2013_2015.csv', index_2013_2015, open('./third(after_preprocessing)/index/6/33/2013_2015.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/index/6/42/2007_2010.csv', index_2007_2010, open('./third(after_preprocessing)/index/6/42/2007_2010.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/6/42/2010_2013.csv', index_2010_2013, open('./third(after_preprocessing)/index/6/42/2010_2013.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/6/42/2013_2016.csv', index_2013_2016, open('./third(after_preprocessing)/index/6/42/2013_2016.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/index/8/44/2007_2010.csv', index_2007_2010, open('./third(after_preprocessing)/index/8/44/2007_2010.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/8/44/2011_2014.csv', index_2011_2014, open('./third(after_preprocessing)/index/8/44/2011_2014.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/index/8/53/2007_2011.csv', index_2007_2011, open('./third(after_preprocessing)/index/8/53/2007_2011.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/8/53/2011_2015.csv', index_2011_2015, open('./third(after_preprocessing)/index/8/53/2011_2015.arff','w'))
+
+#테스트
+deleteFeatures('./second(before_preprocessing)/index/4/22_test/2009_2010.csv', index_2007_2008, open('./third(after_preprocessing)/index/4/22_test/2009_2010.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/22_test/2011_2012.csv', index_2009_2010, open('./third(after_preprocessing)/index/4/22_test/2011_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/22_test/2013_2014.csv', index_2011_2012, open('./third(after_preprocessing)/index/4/22_test/2013_2014.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/22_test/2015_2016.csv', index_2013_2014, open('./third(after_preprocessing)/index/4/22_test/2015_2016.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/22_test/2017_2018.csv', index_2015_2016, open('./third(after_preprocessing)/index/4/22_test/2017_2018.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/index/4/31_test/2010_2010.csv', index_2007_2009, open('./third(after_preprocessing)/index/4/31_test/2010_2010.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/31_test/2012_2012.csv', index_2009_2011, open('./third(after_preprocessing)/index/4/31_test/2012_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/31_test/2014_2014.csv', index_2011_2013, open('./third(after_preprocessing)/index/4/31_test/2014_2014.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/31_test/2016_2016.csv', index_2013_2015, open('./third(after_preprocessing)/index/4/31_test/2016_2016.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/4/31_test/2018_2018.csv', index_2015_2017, open('./third(after_preprocessing)/index/4/31_test/2018_2018.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/index/6/33_test/2010_2012.csv', index_2007_2009, open('./third(after_preprocessing)/index/6/33_test/2010_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/6/33_test/2013_2015.csv', index_2010_2012, open('./third(after_preprocessing)/index/6/33_test/2013_2015.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/6/33_test/2016_2018.csv', index_2013_2015, open('./third(after_preprocessing)/index/6/33_test/2016_2018.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/index/6/42_test/2011_2012.csv', index_2007_2010, open('./third(after_preprocessing)/index/6/42_test/2011_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/6/42_test/2014_2015.csv', index_2010_2013, open('./third(after_preprocessing)/index/6/42_test/2014_2015.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/6/42_test/2017_2018.csv', index_2013_2016, open('./third(after_preprocessing)/index/6/42_test/2017_2018.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/index/8/44_test/2011_2014.csv', index_2007_2010, open('./third(after_preprocessing)/index/8/44_test/2011_2014.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/8/44_test/2015_2018.csv', index_2011_2014, open('./third(after_preprocessing)/index/8/44_test/2015_2018.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/index/8/53_test/2012_2014.csv', index_2007_2011, open('./third(after_preprocessing)/index/8/53_test/2012_2014.arff','w'))
+deleteFeatures('./second(before_preprocessing)/index/8/53_test/2016_2018.csv', index_2011_2015, open('./third(after_preprocessing)/index/8/53_test/2016_2018.arff','w'))
+
+#변화량 해보자(delta)
+#학습
+deleteFeatures('./second(before_preprocessing)/delta/4/22/2007_2008.csv', delta_2007_2008, open('./third(after_preprocessing)/delta/4/22/2007_2008.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/22/2009_2010.csv', delta_2009_2010, open('./third(after_preprocessing)/delta/4/22/2009_2010.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/22/2011_2012.csv', delta_2011_2012, open('./third(after_preprocessing)/delta/4/22/2011_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/22/2013_2014.csv', delta_2013_2014, open('./third(after_preprocessing)/delta/4/22/2013_2014.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/22/2015_2016.csv', delta_2015_2016, open('./third(after_preprocessing)/delta/4/22/2015_2016.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/delta/4/31/2007_2009.csv', delta_2007_2009, open('./third(after_preprocessing)/delta/4/31/2007_2009.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/31/2009_2011.csv', delta_2009_2011, open('./third(after_preprocessing)/delta/4/31/2009_2011.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/31/2011_2013.csv', delta_2011_2013, open('./third(after_preprocessing)/delta/4/31/2011_2013.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/31/2013_2015.csv', delta_2013_2015, open('./third(after_preprocessing)/delta/4/31/2013_2015.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/31/2015_2017.csv', delta_2015_2017, open('./third(after_preprocessing)/delta/4/31/2015_2017.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/delta/6/33/2007_2009.csv', delta_2007_2009, open('./third(after_preprocessing)/delta/6/33/2007_2009.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/6/33/2010_2012.csv', delta_2010_2012, open('./third(after_preprocessing)/delta/6/33/2010_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/6/33/2013_2015.csv', delta_2013_2015, open('./third(after_preprocessing)/delta/6/33/2013_2015.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/delta/6/42/2007_2010.csv', delta_2007_2010, open('./third(after_preprocessing)/delta/6/42/2007_2010.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/6/42/2010_2013.csv', delta_2010_2013, open('./third(after_preprocessing)/delta/6/42/2010_2013.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/6/42/2013_2016.csv', delta_2013_2016, open('./third(after_preprocessing)/delta/6/42/2013_2016.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/delta/8/44/2007_2010.csv', delta_2007_2010, open('./third(after_preprocessing)/delta/8/44/2007_2010.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/8/44/2011_2014.csv', delta_2011_2014, open('./third(after_preprocessing)/delta/8/44/2011_2014.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/delta/8/53/2007_2011.csv', delta_2007_2011, open('./third(after_preprocessing)/delta/8/53/2007_2011.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/8/53/2011_2015.csv', delta_2011_2015, open('./third(after_preprocessing)/delta/8/53/2011_2015.arff','w'))
+
+#테스트
+deleteFeatures('./second(before_preprocessing)/delta/4/22_test/2009_2010.csv', delta_2007_2008, open('./third(after_preprocessing)/delta/4/22_test/2009_2010.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/22_test/2011_2012.csv', delta_2009_2010, open('./third(after_preprocessing)/delta/4/22_test/2011_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/22_test/2013_2014.csv', delta_2011_2012, open('./third(after_preprocessing)/delta/4/22_test/2013_2014.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/22_test/2015_2016.csv', delta_2013_2014, open('./third(after_preprocessing)/delta/4/22_test/2015_2016.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/22_test/2017_2018.csv', delta_2015_2016, open('./third(after_preprocessing)/delta/4/22_test/2017_2018.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/delta/4/31_test/2010_2010.csv', delta_2007_2009, open('./third(after_preprocessing)/delta/4/31_test/2010_2010.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/31_test/2012_2012.csv', delta_2009_2011, open('./third(after_preprocessing)/delta/4/31_test/2012_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/31_test/2014_2014.csv', delta_2011_2013, open('./third(after_preprocessing)/delta/4/31_test/2014_2014.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/31_test/2016_2016.csv', delta_2013_2015, open('./third(after_preprocessing)/delta/4/31_test/2016_2016.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/4/31_test/2018_2018.csv', delta_2015_2017, open('./third(after_preprocessing)/delta/4/31_test/2018_2018.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/delta/6/33_test/2010_2012.csv', delta_2007_2009, open('./third(after_preprocessing)/delta/6/33_test/2010_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/6/33_test/2013_2015.csv', delta_2010_2012, open('./third(after_preprocessing)/delta/6/33_test/2013_2015.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/6/33_test/2016_2018.csv', delta_2013_2015, open('./third(after_preprocessing)/delta/6/33_test/2016_2018.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/delta/6/42_test/2011_2012.csv', delta_2007_2010, open('./third(after_preprocessing)/delta/6/42_test/2011_2012.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/6/42_test/2014_2015.csv', delta_2010_2013, open('./third(after_preprocessing)/delta/6/42_test/2014_2015.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/6/42_test/2017_2018.csv', delta_2013_2016, open('./third(after_preprocessing)/delta/6/42_test/2017_2018.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/delta/8/44_test/2011_2014.csv', delta_2007_2010, open('./third(after_preprocessing)/delta/8/44_test/2011_2014.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/8/44_test/2015_2018.csv', delta_2011_2014, open('./third(after_preprocessing)/delta/8/44_test/2015_2018.arff','w'))
+
+deleteFeatures('./second(before_preprocessing)/delta/8/53_test/2012_2014.csv', delta_2007_2011, open('./third(after_preprocessing)/delta/8/53_test/2012_2014.arff','w'))
+deleteFeatures('./second(before_preprocessing)/delta/8/53_test/2016_2018.csv', delta_2011_2015, open('./third(after_preprocessing)/delta/8/53_test/2016_2018.arff','w'))
