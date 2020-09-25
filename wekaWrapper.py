@@ -1,7 +1,12 @@
 import weka.core.jvm as jvm
+from weka.classifiers import Classifier, Evaluation
+from weka.core.classes import Random
+from weka.core.converters import Loader, Saver
+import weka.core.packages as packages
+
 jvm.start()
 jvm.start(system_cp=True, packages=True)
-jvm.start(packages="/Users/donghee/Library/Weka")
+jvm.start(packages="/Users/donghee/wekafiles/packages")
 jvm.start(max_heap_size="512m")
 
 ##
@@ -11,26 +16,18 @@ jvm.start(max_heap_size="512m")
 # 2007-01-10 ~ 2018-12-28
 ##
 try:
-    from weka.classifiers import Classifier
     cls = Classifier(classname="weka.classifiers.trees.J48", options=["-C", "0.3"])
     print(cls.options)
 
 
     #arff loader
-    from weka.core.converters import Loader, Saver
+    print(1)
     loader = Loader(classname="weka.core.converters.ArffLoader")
-    data = loader.load_file("./original_2007_2010.arff")
-
-
-    #classifiers
-    from weka.classifiers import Classifier, Evaluation
-    from weka.core.classes import Random
-
+    print(2)
+    data = loader.load_file("./third(after_preprocessing)/index/4/22/2007_2008.arff")
+    print(3)
     data.class_is_last()
-    # train, test = data.train_test_split(66)
-    # Classifier = Classifier(classname="weka.classifiers.functions.SMOreg")
-    # evaluation = Evaluation(data)
-    # evaluation.cro
+
     jvm.stop()
 
 except:
