@@ -85,6 +85,9 @@ delta_2011_2014 = [3,5,9,10,11,13,14,15,16,17,18,19,21,23,26,27,28,30,34,38,41,4
 delta_2007_2011 = [3,5,6,9,14,15,17,22,23,26,30,31,33,38,39,40,43,45,46,47,48,49,52,53,56,57,60,63,65,67,70,72,74,79,86,87,88,89,90,92,96,99,101,102,104,105,108,110,115,116,118,121,123,125,126,129,132,133,134,137,141,147,151,155,157,158,159,161,162,163,164,168,169,173,174,175,176,177,178,180,181,184,185,186,189,193,194,197,198,199,202,207,210,213,215,218,221,224,225,226,227,229,233,237,238,242,244,245,246,248,250,256,260,262,263]
 delta_2011_2015 = [4,6,9,11,12,13,14,15,20,21,27,28,29,33,35,36,37,38,39,40,43,45,49,51,52,58,59,63,64,65,67,68,69,70,74,76,80,82,83,85,89,90,92,94,95,97,98,99,102,105,106,112,113,114,116,121,124,126,127,128,129,131,137,138,140,141,143,144,145,148,150,151,152,153,154,155,156,157,162,168,175,178,183,185,191,192,193,194,196,197,199,201,204,205,206,210,212,214,219,222,229,234,235,237,238,239,240,242,245,246,247,248,250,254,257,262,264,265]
 
+
+rate_2013_2014 = [7, 9, 10, 11, 12, 14, 15, 16, 20, 21, 23, 25, 26, 27, 31, 32, 35, 37, 41, 43, 45, 46, 47, 48, 50, 51, 52, 53, 55, 56, 57, 59, 61, 62, 63, 65, 67, 69, 71, 73, 75, 76, 77, 78, 79, 80, 82, 83, 84, 86, 88, 90, 91, 93, 95, 98, 100, 101, 102, 103, 107, 109, 112, 113, 115, 116, 118, 120, 123, 124, 125, 126, 129, 133, 134, 135, 137, 138, 141, 142, 143, 144, 146, 147, 148, 149, 151, 153, 156, 159, 162, 165, 169, 170, 171, 172, 174, 175, 177, 178, 180, 183, 184, 185, 186, 187, 188, 189, 190, 193, 195, 200, 204, 206, 207, 208, 210, 211, 213, 216, 217, 220, 221, 224, 225, 232, 234, 239, 240, 242, 244, 246, 247, 248, 249, 250, 252, 253, 257, 259, 260, 263, 264, 266]
+
 #makeArff(kospiCSV, f)
 #deleteFeatures(csv_path, deletelist, f) ,f = open("../data/arff_ver2/afterFS/4/22/fs_2007_2010.arff",'w')
 # arff_fs_22_2007_2010 = open("../data/arff_ver2/afterFS/4/22/fs_2007_2010.arff",'w')
@@ -258,34 +261,35 @@ delta_2011_2015 = [4,6,9,11,12,13,14,15,20,21,27,28,29,33,35,36,37,38,39,40,43,4
 # deleteFeatures('./second(before_preprocessing)/whole/delta/2007_2014.csv', delta_2007_2011, open('./third(after_preprocessing)/whole/delta/8/53/2007_2011.arff','w'))
 # deleteFeatures('./second(before_preprocessing)/whole/delta/2011_2018.csv', delta_2011_2015, open('./third(after_preprocessing)/whole/delta/8/53/2011_2015.arff', 'w'))
 
+deleteFeatures('./second(before_preprocessing)/whole/rate/2013_2016.csv', rate_2013_2014, open('./third(after_preprocessing)/whole/rate/4/22/2015_2016.arff', 'w'))
 
 #######################################################################################################################################
 #특징선택없는 전체 데이터!
 # 지수(index)
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2007_2010.csv'), open('./third(after_preprocessing)/whole_normal/index/2007_2010.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2009_2012.csv'), open('./third(after_preprocessing)/whole_normal/index/2009_2012.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2011_2014.csv'), open('./third(after_preprocessing)/whole_normal/index/2011_2014.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2013_2016.csv'), open('./third(after_preprocessing)/whole_normal/index/2013_2016.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2015_2018.csv'), open('./third(after_preprocessing)/whole_normal/index/2015_2018.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2007_2010.csv'), open('./third(after_preprocessing)/whole_normal/index/2007_2010.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2009_2012.csv'), open('./third(after_preprocessing)/whole_normal/index/2009_2012.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2011_2014.csv'), open('./third(after_preprocessing)/whole_normal/index/2011_2014.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2013_2016.csv'), open('./third(after_preprocessing)/whole_normal/index/2013_2016.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2015_2018.csv'), open('./third(after_preprocessing)/whole_normal/index/2015_2018.arff', 'w'))
 
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2007_2012.csv'), open('./third(after_preprocessing)/whole_normal/index/2007_2012.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2010_2015.csv'), open('./third(after_preprocessing)/whole_normal/index/2010_2015.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2013_2018.csv'), open('./third(after_preprocessing)/whole_normal/index/2013_2018.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2007_2012.csv'), open('./third(after_preprocessing)/whole_normal/index/2007_2012.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2010_2015.csv'), open('./third(after_preprocessing)/whole_normal/index/2010_2015.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2013_2018.csv'), open('./third(after_preprocessing)/whole_normal/index/2013_2018.arff', 'w'))
 
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2007_2014.csv'), open('./third(after_preprocessing)/whole_normal/index/2007_2014.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2011_2018.csv'), open('./third(after_preprocessing)/whole_normal/index/2011_2018.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2007_2014.csv'), open('./third(after_preprocessing)/whole_normal/index/2007_2014.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/index/2011_2018.csv'), open('./third(after_preprocessing)/whole_normal/index/2011_2018.arff', 'w'))
 
-# #변화량 해보자(delta)
-# #학습
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2007_2010.csv'), open('./third(after_preprocessing)/whole_normal/delta/2007_2010.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2009_2012.csv'), open('./third(after_preprocessing)/whole_normal/delta/2009_2012.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2011_2014.csv'), open('./third(after_preprocessing)/whole_normal/delta/2011_2014.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2013_2016.csv'), open('./third(after_preprocessing)/whole_normal/delta/2013_2016.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2015_2018.csv'), open('./third(after_preprocessing)/whole_normal/delta/2015_2018.arff', 'w'))
+# # #변화량 해보자(delta)
+# # #학습
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2007_2010.csv'), open('./third(after_preprocessing)/whole_normal/delta/2007_2010.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2009_2012.csv'), open('./third(after_preprocessing)/whole_normal/delta/2009_2012.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2011_2014.csv'), open('./third(after_preprocessing)/whole_normal/delta/2011_2014.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2013_2016.csv'), open('./third(after_preprocessing)/whole_normal/delta/2013_2016.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2015_2018.csv'), open('./third(after_preprocessing)/whole_normal/delta/2015_2018.arff', 'w'))
 
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2007_2012.csv'), open('./third(after_preprocessing)/whole_normal/delta/2007_2012.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2010_2015.csv'), open('./third(after_preprocessing)/whole_normal/delta/2010_2015.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2013_2018.csv'), open('./third(after_preprocessing)/whole_normal/delta/2013_2018.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2007_2012.csv'), open('./third(after_preprocessing)/whole_normal/delta/2007_2012.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2010_2015.csv'), open('./third(after_preprocessing)/whole_normal/delta/2010_2015.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2013_2018.csv'), open('./third(after_preprocessing)/whole_normal/delta/2013_2018.arff', 'w'))
 
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2007_2014.csv'), open('./third(after_preprocessing)/whole_normal/delta/2007_2014.arff', 'w'))
-makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2011_2018.csv'), open('./third(after_preprocessing)/whole_normal/delta/2011_2018.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2007_2014.csv'), open('./third(after_preprocessing)/whole_normal/delta/2007_2014.arff', 'w'))
+# makeArff(pd.read_csv('./second(before_preprocessing)/whole/delta/2011_2018.csv'), open('./third(after_preprocessing)/whole_normal/delta/2011_2018.arff', 'w'))

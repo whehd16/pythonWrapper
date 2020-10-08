@@ -194,7 +194,7 @@ def cutByYear_whole(csv_paths, cut_list):
 
 ###테스트 데이터 만들기 위함
 
-cutByYear_test(['./주식_index_1차_전처리.csv', './주식_delta_1차_전처리.csv', './주식_rate_1차_전처리.csv'],
+cutByYear_test(['./주식_index_1차_전처리.csv'],
 [
     #여기는 학습 데이터     #여기는 테스트 데이터
     [4, '22', 2009, 2010],
