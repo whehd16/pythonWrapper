@@ -8,7 +8,9 @@ import math
 from itertools import combinations
 from sklearn.feature_selection import f_regression, mutual_info_regression
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
 
+scaler = MinMaxScaler()
 NUMBER_OF_FEATURES = 264
 POPULATION_SIZE = 50
 KOSPI_NOW_INDEX = 1
@@ -56,7 +58,7 @@ def fitness_function(chromosomes, features_indexs, csv_file):
         for x, y in combi:
             lambda1.append(pearson(x, y, csv_file))
             lambda3.append(mutual_information(x, y, csv_file))
-            # lambda5.append(f_test(x, y, csv))
+            lambda5.append(f_test(x, y, csv))
         #낮아야함 반환되는 값에 플러스 붙을 것
         lambda2 = []
         lambda4 = []
@@ -64,13 +66,42 @@ def fitness_function(chromosomes, features_indexs, csv_file):
         for y in features_indexs[i]:
             lambda2.append(pearson(KOSPI_NOW_INDEX, y, csv_file))
             lambda4.append(mutual_information(KOSPI_NOW_INDEX, y, csv_file))
-            # lambda6.append(f_test(KOSPI_NOW_INDEX,y,csv))
+            lambda6.append(f_test(KOSPI_NOW_INDEX, y, csv))
+
+        lambda1 = [lambda1]
+        scaler.fit(np.transpose(lambda1))
+        lambda1 = scaler.transform(np.transpose(lambda1))
+
+        lambda2 = [lambda2]
+        scaler.fit(np.transpose(lambda2))
+        lambda2 = scaler.transform(np.transpose(lambda2))
+
+        print(lambda3)
+        lambda3 = [lambda3]
+        scaler.fit(np.transpose(lambda3))
+        lambda3 = scaler.transform(np.transpose(lambda3))
+
+        lambda4 = [lambda4]
+        scaler.fit(np.transpose(lambda4))
+        lambda4 = scaler.transform(np.transpose(lambda4))
+
+        lambda5 = [lambda5]
+        scaler.fit(np.transpose(lambda5))
+        lambda5 = scaler.transform(np.transpose(lambda5))
+
+        lambda6 = [lambda6]
+        scaler.fit(np.transpose(lambda6))
+        lambda6 = scaler.transform(np.transpose(lambda6))
+
         print("\t\tpearson")
         print("\t\t",max(lambda1), min(lambda1))
         print("\t\t",max(lambda2), min(lambda2))
         print("\t\tmutual_information")
         print("\t\t", max(lambda3), min(lambda3))
-        print("\t\t",max(lambda4), min(lambda4))
+        print("\t\t", max(lambda4), min(lambda4))
+        print("\t\tf_test")
+        print("\t\t", max(lambda5), min(lambda5))
+        print("\t\t",max(lambda6), min(lambda6))
         # print("\t\tf_test")
         # for l in lambda5:
         #     print("\t\t",l)
@@ -78,8 +109,15 @@ def fitness_function(chromosomes, features_indexs, csv_file):
         # print('---------------------------')
         # print("\t\t", sum(lambda6)/max(lambda6))
 
-        fitness_values[i] = -(sum(lambda1) / max(lambda1)) + (sum(lambda2) / max(lambda2)) - (sum(lambda3) / max(lambda3)) + (sum(lambda4) / max(lambda4))
+        fitness_values[i] = -sum(lambda1) + sum(lambda2)- sum(lambda3) + sum(lambda4) - sum(lambda5) + sum(lambda6)
+
         #  - (sum(lambda5) / max(lambda5)) + (sum(lambda6)/max(lambda6))
+        # print(lambda1)
+        # print("\t\t- sum(lambda1) / max(lambda1) : ", (sum(lambda1) / len(lambda1)))
+        # print("\t\t  sum(lambda2) / max(lambda2) : ", (sum(lambda2) / len(lambda2)))
+        # print("\t\t- sum(lambda3) / max(lambda3) : ", (sum(lambda3) / len(lambda3)))
+        # print("\t\t  sum(lambda4) / max(lambda4) : ", (sum(lambda4) / len(lambda4)))
+        print(fitness_values[i])
 
     return fitness_values
 
