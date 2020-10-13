@@ -76,9 +76,9 @@ def fitness_function(chromosomes, features_indexs, csv_file):
         scaler.fit(np.transpose(lambda2))
         lambda2 = scaler.transform(np.transpose(lambda2))
 
-        print(lambda3)
-        lambda3 = [lambda3]
-        scaler.fit(np.transpose(lambda3))
+        # lambda3 = [np.array(lambda3)]
+        # print(lambda3)
+        scaler.fit(np.transpose(np.array(lambda3)))
         lambda3 = scaler.transform(np.transpose(lambda3))
 
         lambda4 = [lambda4]
