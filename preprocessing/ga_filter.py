@@ -1,4 +1,4 @@
-from random import choice
+from random import choice, getrandbits
 import pandas as pd
 import numpy as np
 import scipy.stats
@@ -47,7 +47,7 @@ def fitness_function(chromosomes, features_indexs, csv_file):
     fitness_values = [0.0] * POPULATION_SIZE
     # print(len(features_indexs))
     for i in range(len(features_indexs)):  #feature 는 1로 인코딩 된 특징 col 번호 리스트임.
-        print(str(i)+"번째")
+        print("\t"+str(i)+"번째")
         #낮아야함 반환되는 값에 마이너스 붙을 것.
         lambda1 = []
         lambda3 = []
@@ -56,7 +56,7 @@ def fitness_function(chromosomes, features_indexs, csv_file):
         for x, y in combi:
             lambda1.append(pearson(x, y, csv_file))
             lambda3.append(mutual_information(x, y, csv_file))
-            lambda5.append(f_test(x,y,csv))
+            # lambda5.append(f_test(x, y, csv))
         #낮아야함 반환되는 값에 플러스 붙을 것
         lambda2 = []
         lambda4 = []
@@ -64,9 +64,22 @@ def fitness_function(chromosomes, features_indexs, csv_file):
         for y in features_indexs[i]:
             lambda2.append(pearson(KOSPI_NOW_INDEX, y, csv_file))
             lambda4.append(mutual_information(KOSPI_NOW_INDEX, y, csv_file))
-            lambda6.append(f_test(KOSPI_NOW_INDEX,y,csv))
+            # lambda6.append(f_test(KOSPI_NOW_INDEX,y,csv))
+        print("\t\tpearson")
+        print("\t\t",max(lambda1), min(lambda1))
+        print("\t\t",max(lambda2), min(lambda2))
+        print("\t\tmutual_information")
+        print("\t\t", max(lambda3), min(lambda3))
+        print("\t\t",max(lambda4), min(lambda4))
+        # print("\t\tf_test")
+        # for l in lambda5:
+        #     print("\t\t",l)
+        # # print("\t\t", sum(lambda5))
+        # print('---------------------------')
+        # print("\t\t", sum(lambda6)/max(lambda6))
 
-        fitness_values[i] = -(sum(lambda1) / max(lambda1)) + (sum(lambda2) / max(lambda2)) - (sum(lambda3)/max(lambda3)) + (sum(lambda4) / max(lambda4)) - (sum(lambda5) / max(lambda5)) + (sum(lambda6)/max(lambda6))
+        fitness_values[i] = -(sum(lambda1) / max(lambda1)) + (sum(lambda2) / max(lambda2)) - (sum(lambda3) / max(lambda3)) + (sum(lambda4) / max(lambda4))
+        #  - (sum(lambda5) / max(lambda5)) + (sum(lambda6)/max(lambda6))
 
     return fitness_values
 
@@ -147,7 +160,7 @@ for generation in range(10):
         selected_index2 = selection(removed_roulette_wheels)
         crossover(selected_index1, selected_index2, chromosomes, new_chromosomes)
     chromosomes = copy.deepcopy(new_chromosomes)
-    # print(len(chromosomes))
+    print(best_fit_and_chromosome[generation])
 
 for values, chromosome in best_fit_and_chromosome:
     print('--------------------------------------')
