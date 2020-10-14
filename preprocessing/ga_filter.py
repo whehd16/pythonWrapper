@@ -161,7 +161,6 @@ def selection(roulette):
 
 def remove_values_from_list(the_list, val):
     return [value for value in the_list if value!=val]
-csv = pd.read_csv('./second(before_preprocessing)/index/4/22/2007_2008.csv')
 
 def crossover(index1, index2, chromosomes, new_chromosomes):
     one_point = random.randint(1, NUMBER_OF_FEATURES - 1)
@@ -172,31 +171,39 @@ def crossover(index1, index2, chromosomes, new_chromosomes):
 def best_fitness(values):
     return values.index(max(values))
 
-chromosomes = []
-roulette_wheels = []
-initialization(chromosomes)
+csv_2009_2010 = pd.read_csv('./second(before_preprocessing)/index/4/22/2009_2010.csv')
+csv_2011_2012 = pd.read_csv('./second(before_preprocessing)/index/4/22/2011_2012.csv')
+csv_2013_2014 = pd.read_csv('./second(before_preprocessing)/index/4/22/2013_2014.csv')
+csv_2015_2016 = pd.read_csv('./second(before_preprocessing)/index/4/22/2015_2016.csv')
 
-for generation in range(10):
-    new_chromosomes = []
-    print(str(generation) + "세대")
-    features_indexs = feature_find(chromosomes)
-    fitness_values = fitness_function(chromosomes, features_indexs, csv)
-    best_fit_and_chromosome.append(
-        [
-            max(fitness_values),
-            chromosomes[fitness_values.index(max(fitness_values))]
-        ]
-    )
-    roulette_wheels = make_roulette_wheels(fitness_values)
-    for _ in range(POPULATION_SIZE):
-        selected_index1 = selection(roulette_wheels)
-        removed_roulette_wheels = remove_values_from_list(roulette_wheels, selected_index1)
-        selected_index2 = selection(removed_roulette_wheels)
-        crossover(selected_index1, selected_index2, chromosomes, new_chromosomes)
-    chromosomes = copy.deepcopy(new_chromosomes)
-    print(best_fit_and_chromosome[generation])
+csv_files = [csv_2009_2010, csv_2011_2012, csv_2013_2014, csv_2015_2016]
 
-for values, chromosome in best_fit_and_chromosome:
-    print('--------------------------------------')
-    print(values)
-    print(chromosome)
+for csv in csv_files:
+    chromosomes = []
+    roulette_wheels = []
+    initialization(chromosomes)
+
+    for generation in range(10):
+        new_chromosomes = []
+        print(str(generation) + "세대")
+        features_indexs = feature_find(chromosomes)
+        fitness_values = fitness_function(chromosomes, features_indexs, csv)
+        best_fit_and_chromosome.append(
+            [
+                max(fitness_values),
+                chromosomes[fitness_values.index(max(fitness_values))]
+            ]
+        )
+        roulette_wheels = make_roulette_wheels(fitness_values)
+        for _ in range(POPULATION_SIZE):
+            selected_index1 = selection(roulette_wheels)
+            removed_roulette_wheels = remove_values_from_list(roulette_wheels, selected_index1)
+            selected_index2 = selection(removed_roulette_wheels)
+            crossover(selected_index1, selected_index2, chromosomes, new_chromosomes)
+        chromosomes = copy.deepcopy(new_chromosomes)
+        print(best_fit_and_chromosome[generation])
+
+    for values, chromosome in best_fit_and_chromosome:
+        print('--------------------------------------')
+        print(values)
+        print(chromosome)
