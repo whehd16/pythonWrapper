@@ -77,39 +77,35 @@ def fitness_function(chromosomes, features_indexs, csv_file):
         lambda2 = scaler.transform(np.transpose(lambda2))
 
         # lambda3 = [np.array(lambda3)]
+        scaler.fit(np.array(lambda3))
+        lambda3 = scaler.transform(np.array((lambda3)))
+
+        # lambda4 = [lambda4]
+        scaler.fit(np.array(lambda4))
+        lambda4 = scaler.transform(np.array(lambda4))
+
+        # lambda5 = [lambda5]
+        scaler.fit(np.array(lambda5))
+        lambda5 = scaler.transform(np.array(lambda5))
+
+        # lambda6 = [lambda6]
+        scaler.fit(np.array(lambda6))
+        lambda6 = scaler.transform(np.array(lambda6))
+
+        # print("lambda1")
+        # print(lambda1)
+        # print("lambda2")
+        # print(lambda2)
+        # print("lambda3")
         # print(lambda3)
-        scaler.fit(np.transpose(np.array(lambda3)))
-        lambda3 = scaler.transform(np.transpose(lambda3))
+        # print("lambda4")
+        # print(lambda4)
+        # print("lambda5")
+        # print(lambda5)
+        # print("lambda6")
+        # print(lambda6)
 
-        lambda4 = [lambda4]
-        scaler.fit(np.transpose(lambda4))
-        lambda4 = scaler.transform(np.transpose(lambda4))
-
-        lambda5 = [lambda5]
-        scaler.fit(np.transpose(lambda5))
-        lambda5 = scaler.transform(np.transpose(lambda5))
-
-        lambda6 = [lambda6]
-        scaler.fit(np.transpose(lambda6))
-        lambda6 = scaler.transform(np.transpose(lambda6))
-
-        print("\t\tpearson")
-        print("\t\t",max(lambda1), min(lambda1))
-        print("\t\t",max(lambda2), min(lambda2))
-        print("\t\tmutual_information")
-        print("\t\t", max(lambda3), min(lambda3))
-        print("\t\t", max(lambda4), min(lambda4))
-        print("\t\tf_test")
-        print("\t\t", max(lambda5), min(lambda5))
-        print("\t\t",max(lambda6), min(lambda6))
-        # print("\t\tf_test")
-        # for l in lambda5:
-        #     print("\t\t",l)
-        # # print("\t\t", sum(lambda5))
-        # print('---------------------------')
-        # print("\t\t", sum(lambda6)/max(lambda6))
-
-        fitness_values[i] = -sum(lambda1) + sum(lambda2)- sum(lambda3) + sum(lambda4) - sum(lambda5) + sum(lambda6)
+        fitness_values[i] = -sum(lambda1)/len(lambda1) + sum(lambda2)/len(lambda1) - sum(lambda3)/len(lambda1) + sum(lambda4)/len(lambda1) - sum(lambda5)/len(lambda1) + sum(lambda6)/len(lambda1)
 
         #  - (sum(lambda5) / max(lambda5)) + (sum(lambda6)/max(lambda6))
         # print(lambda1)

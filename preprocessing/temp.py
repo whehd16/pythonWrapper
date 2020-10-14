@@ -7,8 +7,9 @@ import scipy.stats
 
 from sklearn.preprocessing import MinMaxScaler
 A = [1, 2, 3, 4, 5]
-temp = [A]
-print(temp)
+temp = []
+temp.append(A)
+print(append(1))
 # print(np.transpose(A))
 scaler = MinMaxScaler()
 
